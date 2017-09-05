@@ -1,4 +1,4 @@
 # Summary
 
-* [Introduction](README.md)
+* [Let's go!](README.md)
 
