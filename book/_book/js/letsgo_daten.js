@@ -15,32 +15,38 @@ var schritte = [
 	  gegenstand: ""				
 	},
 	{ id: 3,
-	  text: "Du öffnest die Luke und kriechst hinein. Auf einmal schnappt die Luke hinter dir automatisch zu. Die Luke ist verschlossen. Über der Luke befindet sich eine Kamera und ein Display, auf dem steht: Passbild bitte !",
+	  text: "Du öffnest die Luke und kriechst hinein. Auf einmal schnappt die Luke hinter dir automatisch zu. Die Luke ist verschlossen.",
 	  handlung: "Du gehst zur Kellerluke der Villa.",
 	  ziele: [4],
 	  image: "images/letsgo_small_door.jpg",
 	  gegenstand: ""				
 	},
 	{ id: 4,
-	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Hier bist du anscheinend genau richtig. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Zubehörbox) jetzt nur noch finden. Einen Laptop hast du schon bei deinen anderen Sachen, im Rucksack.",
+	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Hier bist du anscheinend genau richtig. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Zubehörbox, Buch: Calliope mini und Python) jetzt nur noch finden. Einen Laptop hast du schon bei deinen anderen Sachen, im Rucksack.",
 	  handlung: "Du schaust dich im Keller um.",
 	  ziele: [5,6,7],
 	  image: "images/letsgo_blackboard.jpg",
 	  gegenstand: ""				
 	},
 	{ id: 5,
-	  text: "Hier stolperst du beinah über einen Stuhl, der gleich hinter der Tür steht. Du entdeckst ein Klavier und viel Klimbim. Nach langem Stöbern wirst du fündig. Die Zubehörbox war unter dem Hut verborgen.",
+	  text: "Du entdeckst ein Klavier und viel Klimbim.",
 	  handlung: "Du gehst in den Raum mit der Aufschrift: Ada.",
-	  ziele: [8,9],
+	  ziele: [9],
 	  image: "images/letsgo_ada.jpg",
-	  gegenstand: ""				
+	  gegenstand: "",
+	  alt: true,
+	  alttext: "Nach langem Stöbern wirst du fündig. Die Zubehörbox ist unter dem Hut verborgen.",
+	  altziele: [8]				
 	},
 	{ id: 6,
 	  text: "",
 	  handlung: "Du gehst in den Raum mit der Aufschrift: Marlyn.",
-	  ziele: [],
+	  ziele: [9],
 	  image: "",
-	  gegenstand: ""				
+	  gegenstand: "",
+	  alt: true,
+	  alttext: "Nach langem Stöbern wirst du fündig. Die Zubehörbox ist unter dem Hut verborgen.",
+	  altziele: [10]					
 	},
 	{ id: 7,
 	  text: "",
@@ -48,6 +54,29 @@ var schritte = [
 	  ziele: [],
 	  image: "",
 	  gegenstand: ""				
+	},
+	{ id: 8,
+	  text: "",
+	  handlung: "Du nimmst dir die Zubehörbox und steckst sie in deinen Rucksack.",
+	  ziele: [9],
+	  image: "",
+	  gegenstand: "",
+	  entf: [5]				
+	},
+	{ id: 9,
+	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Zubehörbox, Buch: Calliope mini und Python) finden. Einen Laptop hast du schon bei deinen anderen Sachen, im Rucksack.",
+	  handlung: "Du gehst zurück in den Raum mit der Tafel.",
+	  ziele: [5,6,7],
+	  image: "images/letsgo_blackboard.jpg",
+	  gegenstand: ""				
+	},
+	{ id: 10,
+	  text: "",
+	  handlung: "Du schnappst dir das USB-Kabel und packst es in deinen Rucksack.",
+	  ziele: [9],
+	  image: "",
+	  gegenstand: "",
+	  entf: [6]				
 	}
 
 		]
