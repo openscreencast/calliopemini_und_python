@@ -36,7 +36,7 @@ var schritte = [
 	  gegenstand: ""				
 	},
 	{ id: 6,
-	  text: ",
+	  text: "",
 	  handlung: "Du gehst in den Raum mit der Aufschrift: Marlyn.",
 	  ziele: [],
 	  image: "",
