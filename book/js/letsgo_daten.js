@@ -1,7 +1,7 @@
 var schritte = [
 
 	{ id: 1,
-	  text: "***** Der schurkische Dr. Malsana *****<br><br>Dr. Malsana und seine Orks bedrohen die Welt. Man munkelt, er sei durch ein Portal in unsere Welt gekommen. Du bist mitten in einem Abenteuer und versuchst zu verhindern, dass Dr. Malsana die Weltherrschaft an sich reißt. Hinweise führten dich zu einer geheimnisvollen Villa. Dort soll eine Apparatur sein, die dabei hilft, Dr. Malsana aufzuhalten.",
+	  text: "***** Der schurkische Dr. Malsana *****<br><br>Dr. Malsana und seine Orks bedrohen die Welt. Man munkelt, er sei durch ein Portal in unsere Welt gekommen. Du bist mitten in einem Abenteuer und versuchst zu verhindern, dass Dr. Malsana die Weltherrschaft an sich reißt. Hinweise führten dich zu einer geheimnisvollen Villa. Dort soll eine Apparatur sein, die dabei hilft, Dr. Malsana aufzuhalten. Es ist Mitternacht.",
 	  handlung: "",
 	  ziele: [2,3],
 	  image: "images/letsgo_villa_nacht.jpg",
@@ -22,10 +22,31 @@ var schritte = [
 	  gegenstand: ""				
 	},
 	{ id: 4,
-	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Hier bist du anscheinend genau richtig.",
+	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Hier bist du anscheinend genau richtig. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Zubehörbox) jetzt nur noch finden. Einen Laptop hast du schon bei deinen anderen Sachen, im Rucksack.",
 	  handlung: "Du schaust dich im Keller um.",
-	  ziele: [],
+	  ziele: [5,6,7],
 	  image: "images/letsgo_blackboard.jpg",
+	  gegenstand: ""				
+	},
+	{ id: 5,
+	  text: "Hier stolperst du beinah über einen Stuhl, der gleich hinter der Tür steht. Du entdeckst ein Klavier und viel Klimbim. Nach langem Stöbern wirst du fündig. Die Zubehörbox war unter dem Hut verborgen.",
+	  handlung: "Du gehst in den Raum mit der Aufschrift: Ada.",
+	  ziele: [8,9],
+	  image: "images/letsgo_ada.jpg",
+	  gegenstand: ""				
+	},
+	{ id: 6,
+	  text: ",
+	  handlung: "Du gehst in den Raum mit der Aufschrift: Marlyn.",
+	  ziele: [],
+	  image: "",
+	  gegenstand: ""				
+	},
+	{ id: 7,
+	  text: "",
+	  handlung: "Du gehst in den Raum mit der Aufschrift: Grace.",
+	  ziele: [],
+	  image: "",
 	  gegenstand: ""				
 	}
 
