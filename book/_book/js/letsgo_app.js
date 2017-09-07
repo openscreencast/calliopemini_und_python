@@ -1,13 +1,23 @@
+tools = ["Rucksack"];
+
 function sucheSchritt(stelle) {
 
 	for(var i = 0; i < schritte.length; i++) {
  		if(schritte[i].id == stelle) {
 		
-			var text = "<p style='text-align: center;'><img src=\"" + schritte[i].image + "\" />"; 
-			text += "<p>" + schritte[i].text;
+			if(schritte[i].gegenstand) { tools.push(schritte[i].gegenstand); }
 
+			var text = "<p style='text-align: center;'><img src=\"" + schritte[i].image + "\" /></p>";
+			text += "<p>" + schritte[i].text;
+			
 			if(schritte[i].alt) { text += schritte[i].alttext; }
 
+			text += "</p>";
+
+			text += "<p>Tools: ";
+			for(var j = 0; j < tools.length; j++) {
+				 text += tools[j] + " ";
+			}
 			text += "</p>";
 	
 			for(var j = 0; j < schritte[i].ziele.length; j++) {
