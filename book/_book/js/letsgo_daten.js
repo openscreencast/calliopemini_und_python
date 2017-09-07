@@ -39,27 +39,30 @@ var schritte = [
 	  altziele: [8]				
 	},
 	{ id: 6,
-	  text: "",
+	  text: "Tohuwabohu ! Das ist das erste was dir bei diesem Blick einfällt. Hier ist es megachaotisch.",
 	  handlung: "Du gehst in den Raum mit der Aufschrift: Marlyn.",
 	  ziele: [9],
-	  image: "",
+	  image: "images/letsgo_room_chaos.jpg",
 	  gegenstand: "",
 	  alt: true,
-	  alttext: "Nach langem Stöbern wirst du fündig. Die Zubehörbox ist unter dem Hut verborgen.",
+	  alttext: "Nach kurzem Herumkramen erspäst du das USB-Kabel, das dir fehlt.",
 	  altziele: [10]					
 	},
 	{ id: 7,
-	  text: "",
+	  text: "Du erblickst alte Kisten und Fässer. Hinter den Fässern findest du eine Truhe. Auf der Truhe steht - TOP SECRET !",
 	  handlung: "Du gehst in den Raum mit der Aufschrift: Grace.",
-	  ziele: [],
-	  image: "",
-	  gegenstand: ""				
+	  ziele: [9],
+	  image: "images/letsgo_room_chest.jpg",
+	  gegenstand: "",
+	  alt: true,
+	  alttext: "Die Truhe ist elektronisch verschlossen. Nur wenn du das richtige Passwort eingibst öffnet sich die Truhe.",
+	  altziele: [11]				
 	},
 	{ id: 8,
-	  text: "",
+	  text: "In dieser alten Box wird eine Menge Zubehör für den Calliope mini aufbewahrt.",
 	  handlung: "Du nimmst dir die Zubehörbox und steckst sie in deinen Rucksack.",
 	  ziele: [9],
-	  image: "",
+	  image: "images/letsgo_toolbox.jpg",
 	  gegenstand: "",
 	  entf: [5]				
 	},
@@ -74,9 +77,18 @@ var schritte = [
 	  text: "",
 	  handlung: "Du schnappst dir das USB-Kabel und packst es in deinen Rucksack.",
 	  ziele: [9],
-	  image: "",
+	  image: "images/letsgo_usb.jpg",
 	  gegenstand: "",
 	  entf: [6]				
+	},
+    { id: 11,
+	  text: "An der linken Seite der Truhe klebt ein Notizzettel mit den Buchstaben: zvav. Ist das das Passwort ? Oder ist es das Passwort, nur verschlüsselt ? Vielleicht gab es zu dem Verschlüsselungsalorithmus einen Hinweis auf der Tafel. Mit deinem Laptop kannst du im Internet (z.B. bei Wikipedia) nach Informationen suchen.",
+	  handlung: "Du gibst das Passwort ein, um die Truhe zu öffnen.",
+	  ziele: [9],
+	  image: "",
+	  gegenstand: "",
+	  entf: [7]
 	}
+
 
 		]
