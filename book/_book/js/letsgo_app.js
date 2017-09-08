@@ -1,4 +1,4 @@
-tools = ["Rucksack","Tools"];
+tools = ["Rucksack"];
 
 function sucheSchritt(stelle) {
 
@@ -76,5 +76,12 @@ function entfalt(stelle) {
 
 	}
 }
+
+function checkpassword() {
+
+	if(passwort.value == "mini") { sucheSchritt(13); return }
+
+}
+
 
 sucheSchritt(1);

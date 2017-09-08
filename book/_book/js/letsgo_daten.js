@@ -66,7 +66,7 @@ var schritte = [
 	  image: "images/letsgo_blackboard.jpg"
 	},
 	{ id: 10,
-	  text: "",
+	  text: "Jetzt hast du das richtige Kabel um deinen Laptop mit dem Calliope mini zu verbinden.",
 	  handlung: "Du schnappst dir das USB-Kabel und packst es in deinen Rucksack.",
 	  ziele: [9],
 	  image: "images/letsgo_usb.jpg",
@@ -74,18 +74,25 @@ var schritte = [
 	  entf: [6]				
 	},
     { id: 11,
-	  text: "An der linken Seite der Truhe klebt ein Notizzettel mit den Buchstaben: zvav. Ist das das Passwort ? Oder ist es das Passwort, nur verschlüsselt ? Vielleicht gab es zu dem Verschlüsselungsalorithmus einen Hinweis auf der Tafel. Mit deinem Laptop kannst du im Internet (z.B. bei Wikipedia) nach Informationen suchen.",
+	  text: "An der linken Seite der Truhe klebt ein Notizzettel mit den Buchstaben: zvav. Ist das das Passwort ? Oder ist es das Passwort, nur verschlüsselt ? Vielleicht gab es zu dem Verschlüsselungsalorithmus einen Hinweis auf der Tafel. Mit deinem Laptop kannst du im Internet (z.B. bei Wikipedia) nach Informationen suchen. Passwort: <input oninput='checkpassword();' type='text' id='passwort' name='passwort'>",
 	  handlung: "Du gibst das Passwort ein, um die Truhe zu öffnen.",
 	  ziele: [9],
 	  image: "",
-	  gegenstand: "",
-	  entf: [7]
+	  gegenstand: ""
 	},
 	{ id: 12,
 	  text: "Ende",
 	  handlung: "Ende",
 	  ziele: [],
 	  image: ""
+	},
+	{ id: 13,
+	  text: "Du hast den Calliope mini",
+	  handlung: "Ende",
+	  ziele: [9],
+	  image: "",
+	  gegenstand: "Calliope mini",
+	  entf: [7]
 	}
 
 
