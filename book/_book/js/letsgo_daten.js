@@ -80,6 +80,12 @@ var schritte = [
 	  image: "",
 	  gegenstand: "",
 	  entf: [7]
+	},
+	{ id: 12,
+	  text: "Ende",
+	  handlung: "Ende",
+	  ziele: [],
+	  image: ""
 	}
 
 

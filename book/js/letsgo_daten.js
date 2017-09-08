@@ -66,7 +66,7 @@ var schritte = [
 	  image: "images/letsgo_blackboard.jpg"
 	},
 	{ id: 10,
-	  text: "",
+	  text: "Jetzt hast du das richtige Kabel um deinen Laptop mit dem Calliope mini zu verbinden.",
 	  handlung: "Du schnappst dir das USB-Kabel und packst es in deinen Rucksack.",
 	  ziele: [9],
 	  image: "images/letsgo_usb.jpg",
@@ -80,6 +80,12 @@ var schritte = [
 	  image: "",
 	  gegenstand: "",
 	  entf: [7]
+	},
+	{ id: 12,
+	  text: "Ende",
+	  handlung: "Ende",
+	  ziele: [],
+	  image: ""
 	}
 
 
