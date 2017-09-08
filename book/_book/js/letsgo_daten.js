@@ -19,7 +19,7 @@ var schritte = [
 	  image: "images/letsgo_small_door.jpg"
 	},
 	{ id: 4,
-	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Hier bist du anscheinend genau richtig. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Zubehörbox, Buch: Calliope mini und Python) jetzt nur noch finden. Einen Laptop hast du schon bei deinen anderen Sachen, im Rucksack.",
+	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Hier bist du anscheinend genau richtig. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Buch: Calliope mini und Python) jetzt nur noch finden. Einen Laptop und eine Zubehörbox hast du schon bei deinen anderen Sachen, im Rucksack.",
 	  handlung: "Du schaust dich im Keller um.",
 	  ziele: [5,6,7],
 	  image: "images/letsgo_blackboard.jpg"
@@ -30,7 +30,7 @@ var schritte = [
 	  ziele: [9],
 	  image: "images/letsgo_ada.jpg",
 	  alt: true,
-	  alttext: "Nach langem Stöbern wirst du fündig. Die Zubehörbox ist unter dem Hut verborgen.",
+	  alttext: "Nach langem Stöbern wirst du fündig. Das Buch: Calliope Mini und Python ist unter dem Hut verborgen.",
 	  altziele: [8]				
 	},
 	{ id: 6,
@@ -52,15 +52,15 @@ var schritte = [
 	  altziele: [11]				
 	},
 	{ id: 8,
-	  text: "In dieser alten Box wird eine Menge Zubehör für den Calliope mini aufbewahrt.",
-	  handlung: "Du nimmst dir die Zubehörbox und steckst sie in deinen Rucksack.",
+	  text: "In diesem Buch findest du die Anleitung wie man den Calliope mini mit Python programmieren kann.",
+	  handlung: "Du nimmst dir das Buch: Calliope mini und Python und steckst es in deinen Rucksack.",
 	  ziele: [9],
-	  image: "images/letsgo_toolbox.jpg",
-	  gegenstand: "Zubehörbox",
+	  image: "images/letsgo_book.jpg",
+	  gegenstand: "Buch: Calliope mini und Python",
 	  entf: [5]				
 	},
 	{ id: 9,
-	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Zubehörbox, Buch: Calliope mini und Python) finden. Einen Laptop hast du schon bei deinen anderen Sachen, im Rucksack.",
+	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der Tafel: 'Die Welt retten !'. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Buch: Calliope mini und Python) finden. Einen Laptop und eine Zubehörbox hast du schon bei deinen anderen Sachen, im Rucksack.",
 	  handlung: "Du gehst zurück in den Raum mit der Tafel.",
 	  ziele: [5,6,7],
 	  image: "images/letsgo_blackboard.jpg"
@@ -77,8 +77,7 @@ var schritte = [
 	  text: "An der linken Seite der Truhe klebt ein Notizzettel mit den Buchstaben: zvav. Ist das das Passwort ? Oder ist es das Passwort, nur verschlüsselt ? Vielleicht gab es zu dem Verschlüsselungsalorithmus einen Hinweis auf der Tafel. Mit deinem Laptop kannst du im Internet (z.B. bei Wikipedia) nach Informationen suchen. Passwort: <input oninput='checkpassword();' type='text' id='passwort' name='passwort'>",
 	  handlung: "Du gibst das Passwort ein, um die Truhe zu öffnen.",
 	  ziele: [9],
-	  image: "",
-	  gegenstand: ""
+	  image: ""
 	},
 	{ id: 12,
 	  text: "Ende",
