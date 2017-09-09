@@ -1,0 +1,6 @@
+{
+  "variables": {
+      "story": true,
+	  "book": true
+  }
+}
