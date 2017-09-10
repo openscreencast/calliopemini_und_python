@@ -1,8 +1,8 @@
-tools = ["Rucksack", "Zubehörbox"];
+tools = ["Rucksack"];
 
 function sucheSchritt(stelle) {
 
-	if(stelle == 9 && tools.length == 5) { sucheSchritt(12); return }
+	if(stelle == 9 && tools.length == 4) { sucheSchritt(12); return }
 
 	for(var i = 0; i < schritte.length; i++) {
  		if(schritte[i].id == stelle) {
