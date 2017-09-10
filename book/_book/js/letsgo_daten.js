@@ -30,7 +30,7 @@ var schritte = [
 	  ziele: [9],
 	  image: "images/letsgo_ada.jpg",
 	  alt: true,
-	  alttext: "Nach langem Stöbern wirst du fündig. Das Buch: Calliope Mini und Python ist unter dem Hut verborgen.",
+	  alttext: " Nach langem Stöbern wirst du fündig. Das Buch: Calliope Mini und Python ist unter dem Hut verborgen.",
 	  altziele: [8]				
 	},
 	{ id: 6,
@@ -39,7 +39,7 @@ var schritte = [
 	  ziele: [9],
 	  image: "images/letsgo_room_chaos.jpg",
 	  alt: true,
-	  alttext: "Nach kurzem Herumkramen erspäst du das USB-Kabel, das dir fehlt.",
+	  alttext: " Nach kurzem Herumkramen erspäst du das USB-Kabel, das dir fehlt.",
 	  altziele: [10]					
 	},
 	{ id: 7,
@@ -48,7 +48,7 @@ var schritte = [
 	  ziele: [9],
 	  image: "images/letsgo_room_chest.jpg",
 	  alt: true,
-	  alttext: "Die Truhe ist elektronisch verschlossen. Nur wenn du das richtige Passwort eingibst öffnet sich die Truhe.",
+	  alttext: " Die Truhe ist elektronisch verschlossen. Nur wenn du das richtige Passwort eingibst öffnet sich die Truhe.",
 	  altziele: [11]				
 	},
 	{ id: 8,
@@ -80,7 +80,7 @@ var schritte = [
 	  image: "images/letsgo_chest.jpg"
 	},
 	{ id: 12,
-	  text: "Hinter der Tafel entdeckst du eine Tür mit einer Linse. Unter der Linse steht: Passbild eingeben ! Die Tür ist verriegelt und kann offensichtlich nur mit dem korrekten Bild vor der Linse geöffnet werden. Fürs Erste kannst du hier nicht weg. Du beschließt dich erst einmal mit dem Calliope mini zu beschäftigen. Denn je eher du verstehst wie man mit dem Calliope umgeht, desto früher kannst du deine Familie und Freunde vor Dr. Malsana und seine Orks retten. Das Buch 'Calliope mini und Python' erklärt dir die Funktionsweise und wie man den Calliope mini programmiert.<br><br>> <a href='es_leuchtet.html'>Du liest das Buch 'Calliope mini und Python'.</a>",
+	  text: "Hinter der Tafel entdeckst du eine Tür mit einer Linse. Unter der Linse steht: Passbild eingeben ! Die Tür ist verriegelt und kann offensichtlich nur mit dem korrekten Bild vor der Linse geöffnet werden. Fürs Erste kannst du hier nicht weg. Du beschließt dich erst einmal mit dem Calliope mini zu beschäftigen. Denn je eher du verstehst wie man mit dem Calliope umgeht, desto früher kannst du deine Familie und Freunde vor Dr. Malsana und seinen Orks retten. Das Buch 'Calliope mini und Python' erklärt dir die Funktionsweise und wie man den Calliope mini programmiert.<br><br>> <a href='es_leuchtet.html'>Du liest das Buch 'Calliope mini und Python'.</a>",
 	  handlung: "",
 	  ziele: [],
 	  image: "images/letsgo_door_lens.jpg"
