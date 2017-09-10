@@ -81,15 +81,15 @@ var schritte = [
 	},
 	{ id: 12,
 	  text: "Ende",
-	  handlung: "Ende",
+	  handlung: "",
 	  ziele: [],
 	  image: ""
 	},
 	{ id: 13,
-	  text: "Du hast den Calliope mini",
-	  handlung: "Ende",
+	  text: "Innerhalb der Truhe findest du den Calliope mini. Der Calliope mini gehört nun zu deinen Utensilien.",
+	  handlung: "",
 	  ziele: [9],
-	  image: "",
+	  image: "images/letsgo_calliopemini.jpg",
 	  gegenstand: "Calliope mini",
 	  entf: [7]
 	}
