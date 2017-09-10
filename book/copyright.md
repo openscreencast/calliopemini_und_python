@@ -16,3 +16,6 @@
 * https://pixabay.com/en/usb-cable-port-the-mains-connector-876458/ von [MAKY_OREL](https://pixabay.com/en/users/MAKY_OREL-436253/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * https://pixabay.com/en/warehouse-old-wooden-boxes-junk-52732/ von [werner22brigitte](https://pixabay.com/en/users/werner22brigitte-5337/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * https://pixabay.com/en/book-read-books-literature-paper-2598594/ von [satschnt](https://pixabay.com/en/users/satschnt-4558536/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* https://pixabay.com/en/wooden-box-treasure-box-chest-349703/ von [PublicDomainArchive](https://pixabay.com/en/users/PublicDomainArchive-262011/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* https://pixabay.com/en/keyboard-mobile-phone-telefonia-484573/ von [FabioCarbone](https://pixabay.com/en/users/FabioCarbone-498095/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* https://pixabay.com/en/post-it-memos-notes-info-1975179/ von [Alexandra_Koch](https://pixabay.com/en/users/Alexandra_Koch-621802/)  - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
