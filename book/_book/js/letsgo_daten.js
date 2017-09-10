@@ -83,7 +83,7 @@ var schritte = [
 	  text: "Hinter der Tafel entdeckst du eine Tür mit einer Linse. Unter der Linse steht: Passbild eingeben ! Die Tür ist verriegelt und kann offensichtlich nur mit dem korrekten Bild vor der Linse geöffnet werden. Fürs Erste kannst du hier nicht weg. Du beschließt dich erst einmal mit dem Calliope mini zu beschäftigen. Denn je eher du verstehst wie man mit dem Calliope umgeht, desto früher kannst du deine Familie und Freunde vor Dr. Malsana und seine Orks retten. Das Buch 'Calliope mini und Python' erklärt dir die Funktionsweise und wie man den Calliope mini programmiert.<br><br>> <a href='es_leuchtet.html'>Du liest das Buch 'Calliope mini und Python'.</a>",
 	  handlung: "",
 	  ziele: [],
-	  image: ""
+	  image: "images/letsgo_door_lens.jpg"
 	},
 	{ id: 13,
 	  text: "Innerhalb der Truhe findest du den Calliope mini. Der Calliope mini gehört nun zu deinen Utensilien.",

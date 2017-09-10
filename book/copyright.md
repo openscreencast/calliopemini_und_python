@@ -18,4 +18,6 @@
 * https://pixabay.com/en/book-read-books-literature-paper-2598594/ von [satschnt](https://pixabay.com/en/users/satschnt-4558536/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * https://pixabay.com/en/wooden-box-treasure-box-chest-349703/ von [PublicDomainArchive](https://pixabay.com/en/users/PublicDomainArchive-262011/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * https://pixabay.com/en/keyboard-mobile-phone-telefonia-484573/ von [FabioCarbone](https://pixabay.com/en/users/FabioCarbone-498095/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
-* https://pixabay.com/en/post-it-memos-notes-info-1975179/ von [Alexandra_Koch](https://pixabay.com/en/users/Alexandra_Koch-621802/)  - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* https://pixabay.com/en/post-it-memos-notes-info-1975179/ von [Alexandra_Koch](https://pixabay.com/en/users/Alexandra_Koch-621802/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* https://pixabay.com/en/lens-bayonet-camera-canon-1602580/ von [putevodnik](https://pixabay.com/en/users/putevodnik-2543394/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* https://pixabay.com/en/door-medieval-old-wood-lock-1900487/ von [KOLORS](https://pixabay.com/en/users/KOLORS-3630137/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
