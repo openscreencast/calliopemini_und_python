@@ -19,7 +19,7 @@ var schritte = [
 	  image: "images/letsgo_small_door.jpg"
 	},
 	{ id: 4,
-	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der riesigen Tafel an der Wand: 'Die Welt retten !'. Hier bist du anscheinend genau richtig. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Buch: Calliope mini und Python) jetzt nur noch finden. Einen Laptop und eine Zubehörbox hast du schon bei deinen anderen Sachen, im Rucksack.",
+	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der riesigen Tafel an der Wand: 'Die Welt retten !'. Hier bist du anscheinend genau richtig. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Buch: Calliope mini und Python) jetzt nur noch finden. Einen Laptop, ein Smartphone und eine Zubehörbox hast du schon bei deinen anderen Sachen, im Rucksack.",
 	  handlung: "Du schaust dich im Keller um.",
 	  ziele: [5,6,7],
 	  image: "images/letsgo_blackboard.jpg"
@@ -60,7 +60,7 @@ var schritte = [
 	  entf: [5]				
 	},
 	{ id: 9,
-	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der riesigen Tafel an der Wand: 'Die Welt retten !'. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Buch: Calliope mini und Python) finden. Einen Laptop und eine Zubehörbox hast du schon bei deinen anderen Sachen, im Rucksack.",
+	  text: "Im Keller sieht es wie in einem Makerspace aus. Sehr alte Möbel stehen hier aber auch herum. Nicht zu übersehen ist die Überschrift auf der riesigen Tafel an der Wand: 'Die Welt retten !'. Die Tafel verrät dir was du brauchst, zur Rettung der Welt vor der Schreckensherrschaft des schurkischen Dr. Malsana. Du musst die aufgelisteten Utensilien (Calliope mini, USB-Kabel, Buch: Calliope mini und Python) finden. Einen Laptop, ein Smartphone und eine Zubehörbox hast du schon bei deinen anderen Sachen, im Rucksack.",
 	  handlung: "Du gehst zurück in den Raum mit der Tafel.",
 	  ziele: [5,6,7],
 	  image: "images/letsgo_blackboard.jpg"
