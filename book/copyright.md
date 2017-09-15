@@ -21,3 +21,9 @@
 * https://pixabay.com/en/post-it-memos-notes-info-1975179/ von [Alexandra_Koch](https://pixabay.com/en/users/Alexandra_Koch-621802/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * https://pixabay.com/en/lens-bayonet-camera-canon-1602580/ von [putevodnik](https://pixabay.com/en/users/putevodnik-2543394/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * https://pixabay.com/en/door-medieval-old-wood-lock-1900487/ von [KOLORS](https://pixabay.com/en/users/KOLORS-3630137/) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+### Es blinkt
+
+* [Laptop](https://openclipart.org/detail/32353/laptop) von [deusinvictus](https://openclipart.org/user-detail/deusinvictus) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* [Callout chat](https://openclipart.org/detail/14475/callout-chat) von [ericlemerdy](https://openclipart.org/user-detail/ericlemerdy) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+
