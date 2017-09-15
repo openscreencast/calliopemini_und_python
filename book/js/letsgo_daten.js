@@ -74,7 +74,7 @@ var schritte = [
 	  entf: [6]				
 	},
     { id: 11,
-	  text: "An der linken Seite der Truhe klebt ein Notizzettel mit den Buchstaben: zvav. Ist das das Passwort ? Oder ist es das Passwort, nur verschlüsselt ? Vielleicht gab es zu dem Verschlüsselungsalorithmus einen Hinweis auf der Tafel. Mit deinem Laptop kannst du im Internet (z.B. bei Wikipedia) nach Informationen suchen. Eingabedisplay - Passwort: <input oninput='checkpassword();' type='text' id='passwort' name='passwort'>",
+	  text: "An der linken Seite der Truhe klebt ein Notizzettel mit den Buchstaben: zvav. Ist das das Passwort ? Oder ist es das Passwort, nur verschlüsselt ? Vielleicht gab es zu dem Verschlüsselungsalorithmus einen Hinweis auf der Tafel. Mit deinem Laptop oder Smartphone kannst du im Internet (z.B. bei Wikipedia) nach Informationen suchen. Eingabedisplay - Passwort: <input oninput='checkpassword();' type='text' id='passwort' name='passwort'>",
 	  handlung: "Du gibst das Passwort ein, um die Truhe zu öffnen.",
 	  ziele: [9],
 	  image: "images/letsgo_chest.jpg"
