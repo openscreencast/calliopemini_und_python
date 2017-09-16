@@ -7,7 +7,9 @@
 
 {% if book.story %}
 
-<div style="{{book.storycss}}">Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.</div>
+<div style="{{book.storycss}}">Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.
+</div>
+
 <div style="{{book.storycss}}">
 
 <svg
@@ -1502,6 +1504,7 @@
 
 </div>
 
+
 <div style="{{book.storycss}}">
 <center>
 <button onclick="javascript:setzeStandardFarbe();">Standard</button> <span id="activeelement">Farbe: Calliope mini</span> <button onclick="javascript:setzeZufallFarbe();">Zufall</button><br><br>
@@ -1510,6 +1513,7 @@ Grün: <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="25
 Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1"><br>
 </center>
 </div>
+
 
 <script src="js/calliope_mini_color.js"></script>
 

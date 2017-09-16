@@ -1,7 +1,7 @@
 var schritte = [
 
 	{ id: 1,
-	  text: "***** Der schurkische Dr. Malsana *****<br><br>Dr. Malsana und seine Orks bedrohen die Welt. Man munkelt, er sei durch ein Portal in unsere Welt gekommen. Du bist mitten in einem Abenteuer und versuchst zu verhindern, dass Dr. Malsana die Weltherrschaft an sich reißt. Hinweise führten dich zu einer geheimnisvollen Villa. Dort soll eine Apparatur sein, die dabei hilft, Dr. Malsana aufzuhalten. Es ist Mitternacht.",
+	  text: "***** Der schurkische Dr. Malsana *****<br><br>Dr. Malsana und seine Orks bedrohen die Welt. Man munkelt, er sei durch ein Portal in unsere Welt gekommen. Du bist mitten in einem Abenteuer und versuchst zu verhindern, dass Dr. Malsana die Weltherrschaft an sich reißt. Hinweise führten dich zu einer geheimnisvollen Villa, Bitstreet 42. Dort soll eine Apparatur sein, die dabei hilft, Dr. Malsana aufzuhalten. Es ist Mitternacht.",
 	  handlung: "",
 	  ziele: [2,3],
 	  image: "images/letsgo_villa_nacht.jpg"
