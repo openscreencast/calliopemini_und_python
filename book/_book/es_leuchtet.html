@@ -187,9 +187,13 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="calliope-mini-und-python">Calliope mini und Python</h1>
-<p>R: <input id="red" name="Rot" type="range" min="0" max="255" step="1" value="1">
-G: <input id="green" name="Gruen" type="range" min="0" max="255" step="1" value="1">
-B: <input id="blue" name="Blau" type="range" min="0" max="255" step="1" value="1"></p>
+<center><span id="activeelement">Calliope mini</span><br><br>
+Rot: <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1">
+Gr&#xFC;n: <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1">
+Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1">
+</center>
+
+<p><br></p>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewbox="0 0 193.14584 113.77084" height="430" width="730">
   <defs id="defs2">
     <marker style="overflow:visible" id="Arrow1Lend" refx="0" refy="0" orient="auto">
@@ -576,6 +580,8 @@ function xyz() {
             document.getElementById('green').value = farbe_green;
             document.getElementById('blue').value = farbe_blue;
 
+            document.getElementById('activeelement').innerHTML = "Computer";
+
     };
 
     document.getElementById('calliopemini').onclick = function() {
@@ -593,6 +599,8 @@ function xyz() {
             document.getElementById('red').value = farbe_red;
             document.getElementById('green').value = farbe_green;
             document.getElementById('blue').value = farbe_blue;
+
+            document.getElementById('activeelement').innerHTML = "Calliope mini";
     };
 
     document.getElementById('usbkabel').onclick = function() {
@@ -610,6 +618,8 @@ function xyz() {
             document.getElementById('red').value = farbe_red;
             document.getElementById('green').value = farbe_green;
             document.getElementById('blue').value = farbe_blue;
+
+            document.getElementById('activeelement').innerHTML = "USB-Kabel";
     };
 
 
@@ -704,7 +714,7 @@ xyz();
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.2","depth":1,"next":{"title":"Mitarbeit","level":"1.3","depth":1,"path":"mitarbeit.md","ref":"mitarbeit.md","articles":[]},"previous":{"title":"Let's go!","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"story":true,"book":true},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-16T00:07:47.342Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-15T21:44:00.875Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.2","depth":1,"next":{"title":"Mitarbeit","level":"1.3","depth":1,"path":"mitarbeit.md","ref":"mitarbeit.md","articles":[]},"previous":{"title":"Let's go!","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"story":true,"book":true},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-16T00:48:06.435Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-16T00:32:17.438Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

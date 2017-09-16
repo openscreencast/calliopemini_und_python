@@ -2,9 +2,13 @@
 
 # Calliope mini und Python
 
-R: <input id="red" name="Rot" type="range" min="0" max="255" step="1" value="1">
-G: <input id="green" name="Gruen" type="range" min="0" max="255" step="1" value="1">
-B: <input id="blue" name="Blau" type="range" min="0" max="255" step="1" value="1">
+<center><span id="activeelement">Calliope mini</span><br><br>
+Rot: <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1">
+Grün: <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1">
+Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1">
+</center>
+
+<br>
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -1585,6 +1589,8 @@ function xyz() {
 			document.getElementById('red').value = farbe_red;
 			document.getElementById('green').value = farbe_green;
 			document.getElementById('blue').value = farbe_blue;
+
+			document.getElementById('activeelement').innerHTML = "Computer";
 	
 	};
 
@@ -1603,6 +1609,8 @@ function xyz() {
 			document.getElementById('red').value = farbe_red;
 			document.getElementById('green').value = farbe_green;
 			document.getElementById('blue').value = farbe_blue;
+
+			document.getElementById('activeelement').innerHTML = "Calliope mini";
 	};
 
 	document.getElementById('usbkabel').onclick = function() {
@@ -1620,6 +1628,8 @@ function xyz() {
 			document.getElementById('red').value = farbe_red;
 			document.getElementById('green').value = farbe_green;
 			document.getElementById('blue').value = farbe_blue;
+
+			document.getElementById('activeelement').innerHTML = "USB-Kabel";
 	};
 
 	
