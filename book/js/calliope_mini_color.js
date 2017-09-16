@@ -4,6 +4,9 @@ var farbe_red = "0";
 var farbe_green = "0";
 var farbe_blue = "0";
 var current_id = ['platine'];
+var farbe_calliope;
+var farbe_usb;
+var farbe_computer;
 
 function main() {
 	document.getElementById('sprechblaseusbcomputer').style.display = "none";
@@ -56,14 +59,11 @@ function main() {
 	document.getElementById('computer').onclick = function() {
 			current_id = ['computer','path2403','path3181','path3438','path3471','path3463','path3457'];
 
-			farbe = document.getElementById(current_id[0]).style.fill;
-			farbe = farbe.replace("rgb(","");
-			farbe = farbe.replace(")","");	
-			liste_farbe = farbe.split(","); 
+			farbe = getColor(current_id[0]);
 
-			farbe_red = liste_farbe[0].trim();
-			farbe_green = liste_farbe[1].trim();
-			farbe_blue = liste_farbe[2].trim();
+			farbe_red = farbe[0];
+			farbe_green = farbe[1];
+			farbe_blue = farbe[2];
 
 			document.getElementById('red').value = farbe_red;
 			document.getElementById('green').value = farbe_green;
@@ -76,14 +76,11 @@ function main() {
 	document.getElementById('calliopemini').onclick = function() {
 			current_id = ['platine'];
 
-			farbe = document.getElementById(current_id[0]).style.fill;
-			farbe = farbe.replace("rgb(","");
-			farbe = farbe.replace(")","");	
-			liste_farbe = farbe.split(","); 
+			farbe = getColor(current_id[0]);
 
-			farbe_red = liste_farbe[0].trim();
-			farbe_green = liste_farbe[1].trim();
-			farbe_blue = liste_farbe[2].trim();
+			farbe_red = farbe[0];
+			farbe_green = farbe[1];
+			farbe_blue = farbe[2];
 
 			document.getElementById('red').value = farbe_red;
 			document.getElementById('green').value = farbe_green;
@@ -95,14 +92,11 @@ function main() {
 	document.getElementById('usbkabel').onclick = function() {
 			current_id = ['usbkabel','rect188-3','rect188-3-9-0','rect188-3-9'];
 
-			farbe = document.getElementById(current_id[1]).style.fill;
-			farbe = farbe.replace("rgb(","");
-			farbe = farbe.replace(")","");	
-			liste_farbe = farbe.split(","); 
+			farbe = getColor(current_id[1]);
 
-			farbe_red = liste_farbe[0].trim();
-			farbe_green = liste_farbe[1].trim();
-			farbe_blue = liste_farbe[2].trim();
+			farbe_red = farbe[0];
+			farbe_green = farbe[1];
+			farbe_blue = farbe[2];
 
 			document.getElementById('red').value = farbe_red;
 			document.getElementById('green').value = farbe_green;
@@ -112,15 +106,15 @@ function main() {
 	};
 
 	
-
+	/* 
 	farbe = document.getElementById('platine').style.fill;
 	farbe = farbe.replace("rgb(","");
 	farbe = farbe.replace(")","");	
-	liste_farbe = farbe.split(","); 
+	liste_farbe = farbe.split(","); */
 
-	farbe_red = liste_farbe[0].trim();
-	farbe_green = liste_farbe[1].trim();
-	farbe_blue = liste_farbe[2].trim();
+	farbe_red = farbe_calliope[0];
+	farbe_green = farbe_calliope[1];
+	farbe_blue = farbe_calliope[2];
 
 	document.getElementById('red').value = farbe_red;
 	document.getElementById('green').value = farbe_green;
@@ -146,10 +140,30 @@ function main() {
 			document.getElementById(current_id[i]).style.fill = "rgb(" + farbe_red + "," + farbe_green + "," + farbe_blue + ")";
 		}
 	};
-	
-
-
 
 }
 
+function getColor(object) {
+	
+	var liste = [];
+
+	o_farbe = document.getElementById(object).style.fill;
+	o_farbe = o_farbe.replace("rgb(","");
+	o_farbe = o_farbe.replace(")","");	
+	o_liste_farbe = o_farbe.split(","); 
+
+	o_farbe_red = o_liste_farbe[0].trim();
+	o_farbe_green = o_liste_farbe[1].trim();
+	o_farbe_blue = o_liste_farbe[2].trim();
+
+	liste = [o_farbe_red, o_farbe_green, o_farbe_blue];
+	
+	return liste;
+}
+
+farbe_calliope = getColor('platine'); 
+farbe_usb = getColor('rect188-3'); 
+farbe_computer = getColor('computer'); 
+
 main();
+
