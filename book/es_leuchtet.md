@@ -1503,7 +1503,7 @@
 
 <div style="{{book.storycss}}">
 <center>
-<button>Default</button> <span id="activeelement">Calliope mini</span> <button>Random</button><br><br>
+<button onclick="javascript:setDefaultColor();">Default</button> <span id="activeelement">Farbe: Calliope mini</span> <button>Random</button><br><br>
 &nbsp;Rot: <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1"><br>
 Grün: <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1"><br>
 Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1"><br>

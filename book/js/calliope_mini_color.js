@@ -69,7 +69,7 @@ function main() {
 			document.getElementById('green').value = farbe_green;
 			document.getElementById('blue').value = farbe_blue;
 
-			document.getElementById('activeelement').innerHTML = "Computer";
+			document.getElementById('activeelement').innerHTML = "Farbe: Computer";
 	
 	};
 
@@ -86,7 +86,7 @@ function main() {
 			document.getElementById('green').value = farbe_green;
 			document.getElementById('blue').value = farbe_blue;
 
-			document.getElementById('activeelement').innerHTML = "Calliope mini";
+			document.getElementById('activeelement').innerHTML = "Farbe: Calliope mini";
 	};
 
 	document.getElementById('usbkabel').onclick = function() {
@@ -102,7 +102,7 @@ function main() {
 			document.getElementById('green').value = farbe_green;
 			document.getElementById('blue').value = farbe_blue;
 
-			document.getElementById('activeelement').innerHTML = "USB-Kabel";
+			document.getElementById('activeelement').innerHTML = "Farbe: USB-Kabel";
 	};
 
 	
@@ -159,6 +159,27 @@ function getColor(object) {
 	liste = [o_farbe_red, o_farbe_green, o_farbe_blue];
 	
 	return liste;
+}
+
+function setDefaultColor() {
+
+	if(current_id[0] == 'usbkabel') {
+		dfarbe = farbe_usb;
+	}
+	if(current_id[0] == 'computer') {
+		dfarbe = farbe_computer;
+	}
+	if(current_id[0] == 'platine') {
+		dfarbe = farbe_calliope;
+	}
+
+	document.getElementById('red').value = dfarbe[0];
+	document.getElementById('green').value = dfarbe[1];
+	document.getElementById('blue').value = dfarbe[2];
+	for(i = 0; i < current_id.length; i++) {
+			document.getElementById(current_id[i]).style.fill = "rgb(" + dfarbe[0] + "," + dfarbe[1] + "," + dfarbe[2] + ")";
+	}
+
 }
 
 farbe_calliope = getColor('platine'); 
