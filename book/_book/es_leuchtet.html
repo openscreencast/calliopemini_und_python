@@ -187,8 +187,9 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="calliope-mini-und-python">Calliope mini und Python</h1>
-<!-- <button onclick="start()">Click me</button> -->
-<!-- <canvas id="calliope" width="700" height="700"></canvas> -->
+<p>R: <input id="red" name="Rot" type="range" min="0" max="255" step="1" value="1">
+G: <input id="green" name="Gruen" type="range" min="0" max="255" step="1" value="1">
+B: <input id="blue" name="Blau" type="range" min="0" max="255" step="1" value="1"></p>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewbox="0 0 193.14584 113.77084" height="430" width="730">
   <defs id="defs2">
     <marker style="overflow:visible" id="Arrow1Lend" refx="0" refy="0" orient="auto">
@@ -503,104 +504,13 @@
 
 
 <script>
+
 var farbe;
-
-function start() {
-
-/* 
-var calliope = document.getElementById('calliope');
-if(calliope.getContext) {
-    var context = calliope.getContext('2d');
-    context.fillStyle = 'rgb(100,250,250)';
-    context.fillRect(0,0,700,700);
-
-    context.beginPath();
-    context.moveTo(100,195);    
-    context.lineTo(180,50);
-    context.lineTo(220,50);
-    context.lineTo(370,50);
-    context.lineTo(410,50);
-    context.lineTo(490,195),
-    context.lineTo(490,235);
-    context.lineTo(410,380);
-    context.lineTo(370,380);
-    context.lineTo(220,380);
-    context.lineTo(180,380);
-    context.lineTo(100,235);
-    context.lineTo(100,195);
-    context.fillStyle = 'rgb(123,100,0)';
-    context.fill();
-    context.closePath();
-
-    context.beginPath();
-    context.arc(200,50,20,0,2*Math.PI, true);
-    context.arc(200,50,10,0,2*Math.PI, true);
-    context.fillStyle = 'rgb(100,250,250)';
-    context.fill('evenodd');
-    context.closePath();
-
-    context.beginPath();
-    context.arc(390,50,20,0,2*Math.PI,true);
-    context.arc(390,50,10,0,2*Math.PI,true);
-    context.fillStyle = 'rgb(100,250,250)';
-    context.fill('evenodd');
-    context.closePath();
-
-    context.beginPath();
-    context.arc(100,215,20,0,2*Math.PI,true);
-    context.arc(100,215,10,0,2*Math.PI,true);
-    context.fillStyle = 'rgb(100,250,250)';
-    context.fill('evenodd');
-    context.closePath();
-
-    context.beginPath();
-    context.arc(490,215,20,0,2*Math.PI,true);
-    context.arc(490,215,10,0,2*Math.PI,true);
-    context.fillStyle = 'rgb(100,250,250)';
-    context.fill('evenodd');
-    context.closePath();
-
-    context.beginPath();
-    context.arc(200,380,20,0,2*Math.PI,true);
-    context.arc(200,380,10,0,2*Math.PI,true);
-    context.fillStyle = 'rgb(100,250,250)';
-    context.fill('evenodd');
-    context.closePath();
-
-    context.beginPath();
-    context.arc(390,380,20,0,2*Math.PI,true);
-    context.arc(390,380,10,0,2*Math.PI,true);
-    context.fillStyle = 'rgb(100,250,250)';
-    context.fill('evenodd');
-    context.closePath();
-
-    context.beginPath();
-    context.moveTo(100,195);
-    context.quadraticCurveTo(180,195,180,50);
-    context.moveTo(220,50);
-    context.quadraticCurveTo(295,100,370,50);
-    context.moveTo(410,50);
-    context.quadraticCurveTo(410,195,490,195);
-    context.moveTo(490,235);
-    context.quadraticCurveTo(410,235,410,380);
-    context.moveTo(370,380);
-    context.quadraticCurveTo(295,330,220,380);
-    context.moveTo(180,380);
-    context.quadraticCurveTo(180,235,100,235);
-    context.moveTo(100,195);
-
-    context.fill();
-    context.closePath();
-*/
-
-    farbe = document.getElementById('usb').style.fill;
-    document.getElementById('usb').style.fill = "red";
-
-
-}
-function ende() {
-    document.getElementById('usb').style.fill = farbe;
-}
+var liste_farbe;
+var farbe_red = "0";
+var farbe_green = "0";
+var farbe_blue = "0";
+var current_id = ['platine'];
 
 function xyz() {
     document.getElementById('sprechblaseusbcomputer').style.display = "none";
@@ -647,6 +557,98 @@ function xyz() {
             document.getElementById('sprechblaseusbcomputer').style.display = "none";
             document.getElementById('usbcomputer').style.display = "none";
     };
+
+
+
+    document.getElementById('computer').onclick = function() {
+            current_id = ['computer','path2403','path3181','path3438','path3471','path3463','path3457'];
+
+            farbe = document.getElementById(current_id[0]).style.fill;
+            farbe = farbe.replace("rgb(","");
+            farbe = farbe.replace(")","");    
+            liste_farbe = farbe.split(","); 
+
+            farbe_red = liste_farbe[0].trim();
+            farbe_green = liste_farbe[1].trim();
+            farbe_blue = liste_farbe[2].trim();
+
+            document.getElementById('red').value = farbe_red;
+            document.getElementById('green').value = farbe_green;
+            document.getElementById('blue').value = farbe_blue;
+
+    };
+
+    document.getElementById('calliopemini').onclick = function() {
+            current_id = ['platine'];
+
+            farbe = document.getElementById(current_id[0]).style.fill;
+            farbe = farbe.replace("rgb(","");
+            farbe = farbe.replace(")","");    
+            liste_farbe = farbe.split(","); 
+
+            farbe_red = liste_farbe[0].trim();
+            farbe_green = liste_farbe[1].trim();
+            farbe_blue = liste_farbe[2].trim();
+
+            document.getElementById('red').value = farbe_red;
+            document.getElementById('green').value = farbe_green;
+            document.getElementById('blue').value = farbe_blue;
+    };
+
+    document.getElementById('usbkabel').onclick = function() {
+            current_id = ['usbkabel','rect188-3','rect188-3-9-0','rect188-3-9'];
+
+            farbe = document.getElementById(current_id[1]).style.fill;
+            farbe = farbe.replace("rgb(","");
+            farbe = farbe.replace(")","");    
+            liste_farbe = farbe.split(","); 
+
+            farbe_red = liste_farbe[0].trim();
+            farbe_green = liste_farbe[1].trim();
+            farbe_blue = liste_farbe[2].trim();
+
+            document.getElementById('red').value = farbe_red;
+            document.getElementById('green').value = farbe_green;
+            document.getElementById('blue').value = farbe_blue;
+    };
+
+
+
+    farbe = document.getElementById('platine').style.fill;
+    farbe = farbe.replace("rgb(","");
+    farbe = farbe.replace(")","");    
+    liste_farbe = farbe.split(","); 
+
+    farbe_red = liste_farbe[0].trim();
+    farbe_green = liste_farbe[1].trim();
+    farbe_blue = liste_farbe[2].trim();
+
+    document.getElementById('red').value = farbe_red;
+    document.getElementById('green').value = farbe_green;
+    document.getElementById('blue').value = farbe_blue;
+
+    document.getElementById('red').oninput = function() {
+        farbe_red = document.getElementById('red').value;
+        for(i = 0; i < current_id.length; i++) {
+            document.getElementById(current_id[i]).style.fill = "rgb(" + farbe_red + "," + farbe_green + "," + farbe_blue + ")";
+        }
+    };
+
+    document.getElementById('green').oninput = function() {
+        farbe_green = document.getElementById('green').value;
+        for(i = 0; i < current_id.length; i++) {
+            document.getElementById(current_id[i]).style.fill = "rgb(" + farbe_red + "," + farbe_green + "," + farbe_blue + ")";
+        }
+    };
+
+    document.getElementById('blue').oninput = function() {
+        farbe_blue = document.getElementById('blue').value;
+        for(i = 0; i < current_id.length; i++) {
+            document.getElementById(current_id[i]).style.fill = "rgb(" + farbe_red + "," + farbe_green + "," + farbe_blue + ")";
+        }
+    };
+
+
 
 
 }
@@ -702,7 +704,7 @@ xyz();
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.2","depth":1,"next":{"title":"Mitarbeit","level":"1.3","depth":1,"path":"mitarbeit.md","ref":"mitarbeit.md","articles":[]},"previous":{"title":"Let's go!","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"story":true,"book":true},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-15T21:30:58.754Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-15T15:46:20.235Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.2","depth":1,"next":{"title":"Mitarbeit","level":"1.3","depth":1,"path":"mitarbeit.md","ref":"mitarbeit.md","articles":[]},"previous":{"title":"Let's go!","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"story":true,"book":true},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-16T00:07:47.342Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-15T21:44:00.875Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
