@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="92mm"
+   height="17mm"
+   viewBox="0 0 92 17"
+   version="1.1"
+   id="svg285">
+  <title
+     id="title25">USB-Kabel</title>
+  <defs
+     id="defs279" />
+  <metadata
+     id="metadata282">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>USB-Kabel</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:description>USB-Kabel</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>usb</rdf:li>
+            <rdf:li>cable</rdf:li>
+            <rdf:li>Kabel</rdf:li>
+            <rdf:li>USB</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>openscreencast.de</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>openscreencast.de</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>openscreencast.de</dc:source>
+        <dc:language>deutsch, german</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(0,-280)">
+    <g
+       transform="translate(-25.116919,31.930994)"
+       id="usbkabel">
+      <title
+         id="title1207">USB-Kabel</title>
+      <g
+         id="usbastecker">
+        <title
+           id="title1188">USB A Stecker</title>
+        <rect
+           y="251.34245"
+           x="26.912992"
+           height="10.583333"
+           width="12.473843"
+           id="rect188"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:0.16898851" />
+        <rect
+           y="249.8484"
+           x="39.040398"
+           height="13.229167"
+           width="15.166819"
+           id="rect188-3"
+           style="fill:#8789c8;fill-opacity:1;stroke-width:0.20833358" />
+        <rect
+           y="252.64537"
+           x="54.34211"
+           height="8.0083704"
+           width="1.7522449"
+           id="rect188-6"
+           style="fill:#e6e6e6;fill-opacity:1;stroke-width:0.05509539" />
+        <path
+           id="path1044"
+           d="m 53.274464,249.82147 1.403331,-0.003 0.02785,13.30979 -1.586996,4.3e-4 c 0,0 0.06457,-2.20511 -0.163123,-3.56031 -0.22769,-1.35521 -8.981988,-0.87201 -9.688619,-1.73988 -0.706631,-0.86787 -0.904421,-1.57174 -0.07182,-2.4633 0.832601,-0.89156 9.682009,-0.60605 9.937263,-2.04683 0.255254,-1.44077 0.142104,-3.49677 0.142104,-3.49677 z"
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.26854578px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <rect
+           y="253.23943"
+           x="32.110558"
+           height="2.4374521"
+           width="1.2794644"
+           id="rect188-6-5"
+           style="fill:#e6e6e6;fill-opacity:1;stroke-width:0.02597335" />
+        <rect
+           y="257.85074"
+           x="32.156715"
+           height="2.4374521"
+           width="1.2794644"
+           id="rect188-6-5-5"
+           style="fill:#e6e6e6;fill-opacity:1;stroke-width:0.02597335" />
+      </g>
+      <g
+         id="usbmicrobstecker">
+        <title
+           id="title1178">USB Micro B Stecker</title>
+        <rect
+           transform="scale(-1,1)"
+           y="253.5025"
+           x="-115.37561"
+           height="6.2264752"
+           width="6.474031"
+           id="rect188-7"
+           style="fill:#c8c8c8;fill-opacity:1;stroke-width:0.0933801" />
+        <rect
+           transform="scale(-1,1)"
+           y="252.43474"
+           x="-109.27235"
+           height="8.4109039"
+           width="15.166819"
+           id="rect188-3-9"
+           style="fill:#8789c8;fill-opacity:1;stroke-width:0.1661171" />
+        <path
+           id="path1044-1"
+           d="m 95.038276,252.41763 -1.403331,-0.002 -0.02785,8.46216 1.586996,2.8e-4 c 0,0 0.0022,-1.07578 0.229836,-1.9374 0.22769,-0.86162 9.023423,-0.83706 9.621903,-1.43238 0.59848,-0.59532 0.83883,-1.41969 0.17072,-2.0918 -0.66811,-0.67211 -9.729235,-0.34835 -9.984489,-1.26438 -0.255254,-0.91602 -0.19378,-1.73449 -0.19378,-1.73449 z"
+           style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.21412797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <rect
+           transform="scale(-1,1)"
+           y="253.07397"
+           x="-93.680977"
+           height="7.0532475"
+           width="1.1196542"
+           id="rect188-6-2"
+           style="fill:#e6e6e6;fill-opacity:1;stroke-width:0.04133161" />
+      </g>
+      <rect
+         style="fill:#8789c8;fill-opacity:1;stroke-width:0.21810514"
+         id="rect188-3-9-0"
+         width="36.430962"
+         height="6.0362835"
+         x="-92.561081"
+         y="253.59947"
+         transform="scale(-1,1)" />
+    </g>
+  </g>
+</svg>
