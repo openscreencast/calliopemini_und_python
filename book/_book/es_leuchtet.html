@@ -187,13 +187,8 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="calliope-mini-und-python">Calliope mini und Python</h1>
-<center><span id="activeelement">Calliope mini</span><br><br>
-Rot: <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1">
-Gr&#xFC;n: <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1">
-Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1">
-</center>
+<div id="inhalt" style="border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa;">
 
-<p><br></p>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="730" height="430" viewbox="0 0 193.14584 113.77084" version="1.1" id="svg8">
   <defs id="defs2">
     <marker orient="auto" refy="0" refx="0" id="Arrow1Lend" style="overflow:visible">
@@ -505,170 +500,20 @@ Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" s
   </g>
 </svg>
 
-<script>
+</div>
 
-var farbe;
-var liste_farbe;
-var farbe_red = "0";
-var farbe_green = "0";
-var farbe_blue = "0";
-var current_id = ['platine'];
-
-function xyz() {
-    document.getElementById('sprechblaseusbcomputer').style.display = "none";
-    document.getElementById('sprechblaseusbcalliopemini').style.display = "none";
-    document.getElementById('usbcalliopemini').style.display = "none";
-    document.getElementById('usbcomputer').style.display = "none";
-
-    document.getElementById('usbmicrobstecker').onmouseover = function() {
-            document.getElementById('sprechblaseusbcalliopemini').style.display = "inline";
-            document.getElementById('usbcalliopemini').style.display = "inline";
-    };
-
-    document.getElementById('usbmicrobstecker').onmouseout = function() {
-            document.getElementById('sprechblaseusbcalliopemini').style.display = "none";
-            document.getElementById('usbcalliopemini').style.display = "none";
-    };
-
-    document.getElementById('usbastecker').onmouseover = function() {
-            document.getElementById('sprechblaseusbcomputer').style.display = "inline";
-            document.getElementById('usbcomputer').style.display = "inline";
-    };
-
-    document.getElementById('usbastecker').onmouseout = function() {
-            document.getElementById('sprechblaseusbcomputer').style.display = "none";
-            document.getElementById('usbcomputer').style.display = "none";
-    };
-
-    document.getElementById('usb').onmouseover = function() {
-            document.getElementById('sprechblaseusbcalliopemini').style.display = "inline";
-            document.getElementById('usbcalliopemini').style.display = "inline";
-    };
-
-    document.getElementById('usb').onmouseout = function() {
-            document.getElementById('sprechblaseusbcalliopemini').style.display = "none";
-            document.getElementById('usbcalliopemini').style.display = "none";
-    };
-
-    document.getElementById('computer').onmouseover = function() {
-            document.getElementById('sprechblaseusbcomputer').style.display = "inline";
-            document.getElementById('usbcomputer').style.display = "inline";
-    };
-
-    document.getElementById('computer').onmouseout = function() {
-            document.getElementById('sprechblaseusbcomputer').style.display = "none";
-            document.getElementById('usbcomputer').style.display = "none";
-    };
+<div style="border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa;">
+<center>
+<button>Default</button> <span id="activeelement">Calliope mini</span> <button>Random</button><br><br>
+&#xA0;Rot: <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1"><br>
+Gr&#xFC;n: <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1"><br>
+Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1"><br>
+</center>
+</div>
 
 
 
-    document.getElementById('computer').onclick = function() {
-            current_id = ['computer','path2403','path3181','path3438','path3471','path3463','path3457'];
-
-            farbe = document.getElementById(current_id[0]).style.fill;
-            farbe = farbe.replace("rgb(","");
-            farbe = farbe.replace(")","");    
-            liste_farbe = farbe.split(","); 
-
-            farbe_red = liste_farbe[0].trim();
-            farbe_green = liste_farbe[1].trim();
-            farbe_blue = liste_farbe[2].trim();
-
-            document.getElementById('red').value = farbe_red;
-            document.getElementById('green').value = farbe_green;
-            document.getElementById('blue').value = farbe_blue;
-
-            document.getElementById('activeelement').innerHTML = "Computer";
-
-    };
-
-    document.getElementById('calliopemini').onclick = function() {
-            current_id = ['platine'];
-
-            farbe = document.getElementById(current_id[0]).style.fill;
-            farbe = farbe.replace("rgb(","");
-            farbe = farbe.replace(")","");    
-            liste_farbe = farbe.split(","); 
-
-            farbe_red = liste_farbe[0].trim();
-            farbe_green = liste_farbe[1].trim();
-            farbe_blue = liste_farbe[2].trim();
-
-            document.getElementById('red').value = farbe_red;
-            document.getElementById('green').value = farbe_green;
-            document.getElementById('blue').value = farbe_blue;
-
-            document.getElementById('activeelement').innerHTML = "Calliope mini";
-    };
-
-    document.getElementById('usbkabel').onclick = function() {
-            current_id = ['usbkabel','rect188-3','rect188-3-9-0','rect188-3-9'];
-
-            farbe = document.getElementById(current_id[1]).style.fill;
-            farbe = farbe.replace("rgb(","");
-            farbe = farbe.replace(")","");    
-            liste_farbe = farbe.split(","); 
-
-            farbe_red = liste_farbe[0].trim();
-            farbe_green = liste_farbe[1].trim();
-            farbe_blue = liste_farbe[2].trim();
-
-            document.getElementById('red').value = farbe_red;
-            document.getElementById('green').value = farbe_green;
-            document.getElementById('blue').value = farbe_blue;
-
-            document.getElementById('activeelement').innerHTML = "USB-Kabel";
-    };
-
-
-
-    farbe = document.getElementById('platine').style.fill;
-    farbe = farbe.replace("rgb(","");
-    farbe = farbe.replace(")","");    
-    liste_farbe = farbe.split(","); 
-
-    farbe_red = liste_farbe[0].trim();
-    farbe_green = liste_farbe[1].trim();
-    farbe_blue = liste_farbe[2].trim();
-
-    document.getElementById('red').value = farbe_red;
-    document.getElementById('green').value = farbe_green;
-    document.getElementById('blue').value = farbe_blue;
-
-    document.getElementById('red').oninput = function() {
-        farbe_red = document.getElementById('red').value;
-        for(i = 0; i < current_id.length; i++) {
-            document.getElementById(current_id[i]).style.fill = "rgb(" + farbe_red + "," + farbe_green + "," + farbe_blue + ")";
-        }
-    };
-
-    document.getElementById('green').oninput = function() {
-        farbe_green = document.getElementById('green').value;
-        for(i = 0; i < current_id.length; i++) {
-            document.getElementById(current_id[i]).style.fill = "rgb(" + farbe_red + "," + farbe_green + "," + farbe_blue + ")";
-        }
-    };
-
-    document.getElementById('blue').oninput = function() {
-        farbe_blue = document.getElementById('blue').value;
-        for(i = 0; i < current_id.length; i++) {
-            document.getElementById(current_id[i]).style.fill = "rgb(" + farbe_red + "," + farbe_green + "," + farbe_blue + ")";
-        }
-    };
-
-
-
-
-}
-
-
-xyz();
-</script>
-
-
-
-
-
+<script src="js/calliope_mini_color.js"></script>
 
                                 
                                 </section>
@@ -712,7 +557,7 @@ xyz();
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.2","depth":1,"next":{"title":"Mitarbeit","level":"1.3","depth":1,"path":"mitarbeit.md","ref":"mitarbeit.md","articles":[]},"previous":{"title":"Let's go!","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"story":true,"storycss":"border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa;","book":true},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-16T01:14:07.699Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-16T16:30:03.813Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.2","depth":1,"next":{"title":"Mitarbeit","level":"1.3","depth":1,"path":"mitarbeit.md","ref":"mitarbeit.md","articles":[]},"previous":{"title":"Let's go!","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"story":true,"storycss":"border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa;","book":true},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-16T18:07:09.117Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-16T18:08:11.574Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
