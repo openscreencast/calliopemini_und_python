@@ -1,3 +1,5 @@
+/* Variablen setzen */
+
 var farbe_rot = "0";
 var farbe_gruen = "0";
 var farbe_blau = "0";
@@ -5,6 +7,8 @@ var aktuelle_id = ['platine'];
 var farbe_calliope;
 var farbe_usb;
 var farbe_computer;
+
+/* Hauptfunktion definieren */
 
 function haupt() {
 	document.getElementById('sprechblaseusbcomputer').style.display = "none";
@@ -135,6 +139,8 @@ function haupt() {
 
 }
 
+/* Farbe eines svg-Objekts per id ermitteln */
+
 function bekommeFarbe(object) {
 	
 	var liste = [];
@@ -152,6 +158,8 @@ function bekommeFarbe(object) {
 	
 	return liste;
 }
+
+/* Standardfarbe setzen */
 
 function setzeStandardFarbe() {
 
@@ -174,6 +182,8 @@ function setzeStandardFarbe() {
 
 }
 
+/* Zufallsfarbe ermitteln */
+
 function setzeZufallFarbe() {
 
 	var dfarbe = [];
@@ -191,9 +201,14 @@ function setzeZufallFarbe() {
 
 }
 
+
+/* Standard-Farben ermitteln */
+
 farbe_calliope = bekommeFarbe('platine'); 
 farbe_usb = bekommeFarbe('rect188-3'); 
 farbe_computer = bekommeFarbe('computer'); 
+
+/* Hauptfunktion starten */
 
 haupt();
 
