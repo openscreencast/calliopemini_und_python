@@ -7,10 +7,10 @@
 
 {% if book.story %}
 
-<div style="{{book.storycss}}">Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.
+<div style="{{book.storycss}}"> Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.
 </div>
 
-<div style="{{book.storycss}}">
+<div style="{{book.storycss}}background-image: none;">
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -1505,12 +1505,12 @@
 </div>
 
 
-<div style="{{book.storycss}}">
+<div style="{{book.storycss}}background-image: url('images/background_metalCenter.png');">
 <center>
-<button onclick="javascript:setzeStandardFarbe();">Standard</button> <span id="activeelement">Farbe: Calliope mini</span> <button onclick="javascript:setzeZufallFarbe();">Zufall</button><br><br>
-&nbsp;Rot: <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1"><br>
-Grün: <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1"><br>
-Blau: <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1"><br>
+<img src="images/standard_button.png" width="40px" onclick="javascript:setzeStandardFarbe();" id="standardbutton" style="top: 30px" title="Standard"> <span id="activeelement"><sup>Farbe: Calliope mini</sup></span> <img src="images/zufall_button.png" width="40px" onclick="javascript:setzeZufallFarbe();" id="zufallbutton" title="Zufall"><br>
+<img src="images/rot_links.png" width="30px" id="rot_links"> <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1"> <img src="images/rot_rechts.png" width="30px" id="rot_rechts"><br>
+<img src="images/gruen_links.png" width="30px" id="gruen_links"> <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1"> <img src="images/gruen_rechts.png" width="30px" id="gruen_rechts"><br>
+<img src="images/blau_links.png" width="30px" id="blau_links"> <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1"> <img src="images/blau_rechts.png" width="30px" id="blau_rechts"><br>
 </center>
 </div>
 

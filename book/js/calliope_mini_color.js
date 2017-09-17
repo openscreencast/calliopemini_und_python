@@ -137,6 +137,64 @@ function haupt() {
 		}
 	};
 
+	document.getElementById('standardbutton').onmousedown = function() {
+		document.getElementById('standardbutton').src = "images/standard_button_pressed.png";
+	};
+	document.getElementById('standardbutton').onmouseup = function() {
+		document.getElementById('standardbutton').src = "images/standard_button.png";
+	};
+
+	document.getElementById('zufallbutton').onmousedown = function() {
+		document.getElementById('zufallbutton').src = "images/zufall_button_pressed.png";
+	};
+	document.getElementById('zufallbutton').onmouseup = function() {
+		document.getElementById('zufallbutton').src = "images/zufall_button.png";
+	};
+	document.getElementById('rot_links').onclick = function() {
+		--document.getElementById('red').value;
+		farbe_rot = document.getElementById('red').value;
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
+		};
+	};
+	document.getElementById('rot_rechts').onclick = function() {
+		++document.getElementById('red').value;
+		farbe_rot = document.getElementById('red').value;
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
+		};
+	};
+	document.getElementById('gruen_links').onclick = function() {
+		--document.getElementById('green').value;
+		farbe_gruen = document.getElementById('green').value;
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
+		};
+	};
+	document.getElementById('gruen_rechts').onclick = function() {
+		++document.getElementById('green').value;
+		farbe_gruen = document.getElementById('green').value;
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
+		};
+	};
+	document.getElementById('blau_links').onclick = function() {
+		--document.getElementById('blue').value;
+		farbe_blau = document.getElementById('blue').value;
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
+		};
+	};
+	document.getElementById('blau_rechts').onclick = function() {
+		++document.getElementById('blue').value;
+		farbe_blau = document.getElementById('blue').value;
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
+		};
+	};
+
+    
+
 }
 
 /* Farbe eines svg-Objekts per id ermitteln */

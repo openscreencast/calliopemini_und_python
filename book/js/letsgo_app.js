@@ -26,7 +26,7 @@ function sucheSchritt(stelle) {
 			for(var j = 0; j < schritte[i].ziele.length; j++) {
 				text += "<div onclick=\"sucheSchritt(";
 				text += schritte[i].ziele[j];
-				text += ");\">> <a href=\"#\" title=\""; 
+				text += ");\">> <a href=\"#\" style=\"color: #87CEFA;\" title=\""; 
 				text += sucheText(schritte[i].ziele[j]);
 				text += "\">";
 				text += sucheText(schritte[i].ziele[j]);
@@ -37,7 +37,7 @@ function sucheSchritt(stelle) {
 				for(var j = 0; j < schritte[i].altziele.length; j++) {
 					text += "<div onclick=\"sucheSchritt(";
 					text += schritte[i].altziele[j];
-					text += ");\">> <a href=\"#\" title=\""; 
+					text += ");\">> <a href=\"#\" style=\"color: #87CEFA;\" title=\""; 
 					text += sucheText(schritte[i].altziele[j]);
 					text += "\">";
 					text += sucheText(schritte[i].altziele[j]);

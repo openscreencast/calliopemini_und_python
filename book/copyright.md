@@ -27,3 +27,6 @@
 * [Laptop](https://openclipart.org/detail/32353/laptop) von [deusinvictus](https://openclipart.org/user-detail/deusinvictus) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * [Callout chat](https://openclipart.org/detail/14475/callout-chat) von [ericlemerdy](https://openclipart.org/user-detail/ericlemerdy) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 
+### Sonstiges
+
+* [Kenney - Game Assets](http://kenney.nl/assets) - [Creative Commons CC0](https://creativecommons.org/publicdomain/zero/1.0/)

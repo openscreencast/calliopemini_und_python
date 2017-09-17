@@ -1,7 +1,7 @@
 {
   "variables": {
       "story": true,
-	  "storycss": "border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa;",
+	  "storycss": "border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa; background-image: url('images/background_story.png');",
 	  "book": true
   }
 }
