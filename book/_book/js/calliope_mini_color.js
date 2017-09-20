@@ -11,6 +11,9 @@ var farbe_computer;
 /* Hauptfunktion definieren */
 
 function haupt() {
+
+	/* Sichtbarkeit der Sprechblase */
+	
 	document.getElementById('sprechblaseusbcomputer').style.display = "none";
 	document.getElementById('sprechblaseusbcalliopemini').style.display = "none";
 	document.getElementById('usbcalliopemini').style.display = "none";
@@ -57,6 +60,7 @@ function haupt() {
 	};
 
 
+	/* Objekt für die Änderung der Farbe auswählen */
 
 	document.getElementById('computer').onclick = function() {
 			aktuelle_id = ['computer','path2403','path3181','path3438','path3471','path3463','path3457'];
@@ -108,6 +112,8 @@ function haupt() {
 	};
 
 	
+	/* Farbe ermitteln - Calliope mini */
+
 	farbe_rot = farbe_calliope[0];
 	farbe_gruen = farbe_calliope[1];
 	farbe_blau = farbe_calliope[2];
@@ -115,6 +121,8 @@ function haupt() {
 	document.getElementById('red').value = farbe_rot;
 	document.getElementById('green').value = farbe_gruen;
 	document.getElementById('blue').value = farbe_blau;
+
+	/* Farbe bei Änderung neu setzen */
 
 	document.getElementById('red').oninput = function() {
 		farbe_rot = document.getElementById('red').value;
@@ -137,6 +145,9 @@ function haupt() {
 		}
 	};
 
+
+	/* Bilder für Button (Standard, Zufall) austauschen */
+
 	document.getElementById('standardbutton').onmousedown = function() {
 		document.getElementById('standardbutton').src = "images/standard_button_pressed.png";
 	};
@@ -150,42 +161,52 @@ function haupt() {
 	document.getElementById('zufallbutton').onmouseup = function() {
 		document.getElementById('zufallbutton').src = "images/zufall_button.png";
 	};
-	document.getElementById('rot_links').onclick = function() {
+
+
+	/* Bilder für Farbregler (Rot, Grün, Blau) austauschen, Farbe neu setzen */
+
+	document.getElementById('rot_links').onmousedown = function() {
+		this.src = "images/rot_links_pressed.png";
 		--document.getElementById('red').value;
 		farbe_rot = document.getElementById('red').value;
 		for(i = 0; i < aktuelle_id.length; i++) {
 			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
 		};
 	};
-	document.getElementById('rot_rechts').onclick = function() {
+	document.getElementById('rot_rechts').onmousedown = function() {
+		this.src = "images/rot_rechts_pressed.png";
 		++document.getElementById('red').value;
 		farbe_rot = document.getElementById('red').value;
 		for(i = 0; i < aktuelle_id.length; i++) {
 			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
 		};
 	};
-	document.getElementById('gruen_links').onclick = function() {
+	document.getElementById('gruen_links').onmousedown = function() {
+		this.src = "images/gruen_links_pressed.png";
 		--document.getElementById('green').value;
 		farbe_gruen = document.getElementById('green').value;
 		for(i = 0; i < aktuelle_id.length; i++) {
 			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
 		};
 	};
-	document.getElementById('gruen_rechts').onclick = function() {
+	document.getElementById('gruen_rechts').onmousedown = function() {
+		this.src = "images/gruen_rechts_pressed.png";
 		++document.getElementById('green').value;
 		farbe_gruen = document.getElementById('green').value;
 		for(i = 0; i < aktuelle_id.length; i++) {
 			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
 		};
 	};
-	document.getElementById('blau_links').onclick = function() {
+	document.getElementById('blau_links').onmousedown = function() {
+		this.src = "images/blau_links_pressed.png";
 		--document.getElementById('blue').value;
 		farbe_blau = document.getElementById('blue').value;
 		for(i = 0; i < aktuelle_id.length; i++) {
 			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + farbe_rot + "," + farbe_gruen + "," + farbe_blau + ")";
 		};
 	};
-	document.getElementById('blau_rechts').onclick = function() {
+	document.getElementById('blau_rechts').onmousedown = function() {
+		this.src = "images/blau_rechts_pressed.png";
 		++document.getElementById('blue').value;
 		farbe_blau = document.getElementById('blue').value;
 		for(i = 0; i < aktuelle_id.length; i++) {
@@ -193,6 +214,24 @@ function haupt() {
 		};
 	};
 
+	document.getElementById('rot_rechts').onmouseup = function() {
+		this.src = "images/rot_rechts.png";
+	};
+	document.getElementById('rot_links').onmouseup = function() {
+		this.src = "images/rot_links.png";
+	};
+	document.getElementById('gruen_rechts').onmouseup = function() {
+		this.src = "images/gruen_rechts.png";
+	};
+	document.getElementById('gruen_links').onmouseup = function() {
+		this.src = "images/gruen_links.png";
+	};
+	document.getElementById('blau_rechts').onmouseup = function() {
+		this.src = "images/blau_rechts.png";
+	};
+	document.getElementById('blau_links').onmouseup = function() {
+		this.src = "images/blau_links.png";
+	};
     
 
 }
