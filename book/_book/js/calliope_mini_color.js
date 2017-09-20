@@ -75,7 +75,7 @@ function haupt() {
 			document.getElementById('green').value = farbe_gruen;
 			document.getElementById('blue').value = farbe_blau;
 
-			document.getElementById('activeelement').innerHTML = "Farbe: Computer";
+			document.getElementById('activeelement').innerHTML = "<sup>Farbe: Computer</sup>";
 	
 	};
 
@@ -92,7 +92,7 @@ function haupt() {
 			document.getElementById('green').value = farbe_gruen;
 			document.getElementById('blue').value = farbe_blau;
 
-			document.getElementById('activeelement').innerHTML = "Farbe: Calliope mini";
+			document.getElementById('activeelement').innerHTML = "<sup>Farbe: Calliope mini</sup>";
 	};
 
 	document.getElementById('usbkabel').onclick = function() {
@@ -108,7 +108,7 @@ function haupt() {
 			document.getElementById('green').value = farbe_gruen;
 			document.getElementById('blue').value = farbe_blau;
 
-			document.getElementById('activeelement').innerHTML = "Farbe: USB-Kabel";
+			document.getElementById('activeelement').innerHTML = "<sup>Farbe: USB-Kabel</sup>";
 	};
 
 	
