@@ -2,7 +2,18 @@
 
 # Calliope mini und Python {#Calliope_mini_und_Python}
 
-Herzlich Willkommen !
+{% if book.video %}
+
+%accordion%Video - Herzlich Willkommen%accordion%
+
+iframe - Video
+
+%/accordion%
+
+<p></p>
+{% endif %}
+
+Herzlich Willkommen ! 
 
 Der [Calliope mini](https://de.wikipedia.org/wiki/Calliope_mini) ist ein 
 kleiner [Computer](https://de.wikipedia.org/wiki/Computer), den du
@@ -23,7 +34,6 @@ Computer mit [Internet](https://de.wikipedia.org/wiki/Internet)zugang)
 6. .hex-Datei auf das Gerät "MINI" kopieren
 
 Nach der Prozedur wird dein erstelltes Programm auf dem Calliope mini gestartet.
-
 
 {% endif %}
 

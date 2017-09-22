@@ -21,14 +21,16 @@ gitbook build
 
 ### Software
 
-* [GitBook](https://github.com/GitbookIO/gitbook), Lizenz: [Apache License](https://github.com/GitbookIO/gitbook/blob/master/LICENSE)
-* [theme-default](https://github.com/GitbookIO/theme-default), Lizenz: [Apache License](https://github.com/GitbookIO/theme-default/blob/master/LICENSE)
-* [plugin-fontsettings](https://github.com/GitbookIO/plugin-fontsettings), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-fontsettings/blob/master/LICENSE)
-* [plugin-highlight](https://github.com/GitbookIO/plugin-highlight)
-* [plugin-lunr](https://github.com/GitbookIO/plugin-lunr), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-lunr/blob/master/LICENSE)
-* [plugin-search](https://github.com/GitbookIO/plugin-search), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-search/blob/master/LICENSE)
-* [plugin-sharing](https://github.com/GitbookIO/plugin-sharing), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-sharing/blob/master/LICENSE)
+* [GitBook](https://github.com/GitbookIO/gitbook) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/gitbook/blob/master/LICENSE)
+* [theme-default](https://github.com/GitbookIO/theme-default) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/theme-default/blob/master/LICENSE)
+* [plugin-fontsettings](https://github.com/GitbookIO/plugin-fontsettings) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-fontsettings/blob/master/LICENSE)
+* [plugin-highlight](https://github.com/GitbookIO/plugin-highlight) by [GitBook](https://github.com/GitbookIO), Lizenz: Apache 2
+* [plugin-lunr](https://github.com/GitbookIO/plugin-lunr) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-lunr/blob/master/LICENSE)
+* [plugin-search](https://github.com/GitbookIO/plugin-search) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-search/blob/master/LICENSE)
+* [plugin-sharing](https://github.com/GitbookIO/plugin-sharing) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-sharing/blob/master/LICENSE)
+* [plugin-accordion](https://github.com/artalar/gitbook-plugin-accordion) by [artalar](https://github.com/artalar), Lizenz: The MIT License
 * http://fontawesome.io created by [Dave Gandy](https://twitter.com/davegandy), licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL), Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)
+
 
 # Status
 
