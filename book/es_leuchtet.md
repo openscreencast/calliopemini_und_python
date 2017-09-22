@@ -18,7 +18,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="730"
+   width="700"
    height="430"
    viewBox="0 0 193.14584 113.77084"
    version="1.1"
