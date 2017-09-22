@@ -1,6 +1,29 @@
 {% if book.book %}
 
-# Calliope mini und Python
+# Calliope mini und Python {#Calliope_mini_und_Python}
+
+Herzlich Willkommen !
+
+Der [Calliope mini](https://de.wikipedia.org/wiki/Calliope_mini) ist ein 
+kleiner [Computer](https://de.wikipedia.org/wiki/Computer), den du
+leicht [programmieren](https://de.wikipedia.org/wiki/Programmierung) kannst.
+Informationen über den Calliope mini findest du 
+auf der Webseite [http://calliope.cc](http://calliope.cc).
+Unter [Editor](http://calliope.cc/editor) findest du [Links](https://de.wikipedia.org/wiki/Hyperlink)
+zu drei Programmierumgebungen, die dir für die Programmierung zur Verfügung stehen. 
+Um [Programme](https://de.wikipedia.org/wiki/Computerprogramm) auf deinen Calliope mini zu spielen, sind folgende Schritte notwendig:
+(Voraussetzung: Calliope mini, Micro [USB](https://de.wikipedia.org/wiki/Universal_Serial_Bus)-Kabel,
+Computer mit [Internet](https://de.wikipedia.org/wiki/Internet)zugang)
+
+1. Calliope mini mit dem USB-Kabel (Stecker Micro B) verbinden
+2. Computer mit dem USB-Kabel (Stecker A) verbinden (Der Calliope mini wird nun als Gerät "MINI" angezeigt.)
+3. Editor deiner Wahl aufrufen: [http://calliope.cc - Editoren](http://calliope.cc/editor)
+4. Programm mit den grafischen Bausteinen des Editors erstellen
+5. Programm als .hex-Datei herunterladen
+6. .hex-Datei auf das Gerät "MINI" kopieren
+
+Nach der Prozedur wird dein erstelltes Programm auf dem Calliope mini gestartet.
+
 
 {% endif %}
 
