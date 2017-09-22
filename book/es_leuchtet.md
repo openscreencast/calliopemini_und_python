@@ -1507,7 +1507,7 @@
 
 <div style="{{book.storycss}}background-image: url('images/background_metalCenter.png');">
 <center>
-<img src="images/standard_button.png" width="40px" onclick="javascript:setzeStandardFarbe();" id="standardbutton" style="top: 30px" title="Standard"> <span id="activeelement"><sup>Farbe: Calliope mini</sup></span> <img src="images/zufall_button.png" width="40px" onclick="javascript:setzeZufallFarbe();" id="zufallbutton" title="Zufall"><br>
+<img src="images/standard_button.png" width="40px" id="standardbutton" style="top: 30px" title="Standard"> <span id="activeelement"><sup>Farbe: Calliope mini</sup></span> <img src="images/zufall_button.png" width="40px" id="zufallbutton" title="Zufall"><br>
 <img src="images/rot_links.png" width="30px" id="rot_links"> <input id="red" name="Rot" title="Rot" type="range" min="0" max="255" step="1" value="1"> <img src="images/rot_rechts.png" width="30px" id="rot_rechts"><br>
 <img src="images/gruen_links.png" width="30px" id="gruen_links"> <input id="green" name="Gruen" title="Gruen" type="range" min="0" max="255" step="1" value="1"> <img src="images/gruen_rechts.png" width="30px" id="gruen_rechts"><br>
 <img src="images/blau_links.png" width="30px" id="blau_links"> <input id="blue" name="Blau" title="Blau" type="range" min="0" max="255" step="1" value="1"> <img src="images/blau_rechts.png" width="30px" id="blau_rechts"><br>

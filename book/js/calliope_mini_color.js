@@ -149,14 +149,47 @@ function haupt() {
 	/* Bilder für Button (Standard, Zufall) austauschen */
 
 	document.getElementById('standardbutton').onmousedown = function() {
+
+		if(aktuelle_id[0] == 'usbkabel') {
+			dfarbe = farbe_usb;
+		}
+		if(aktuelle_id[0] == 'computer') {
+			dfarbe = farbe_computer;
+		}
+		if(aktuelle_id[0] == 'platine') {
+			dfarbe = farbe_calliope;
+		}
+
+		document.getElementById('red').value = dfarbe[0];
+		document.getElementById('green').value = dfarbe[1];
+		document.getElementById('blue').value = dfarbe[2];
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + dfarbe[0] + "," + dfarbe[1] + "," + dfarbe[2] + ")";
+		}
 		document.getElementById('standardbutton').src = "images/standard_button_pressed.png";
+
 	};
 	document.getElementById('standardbutton').onmouseup = function() {
 		document.getElementById('standardbutton').src = "images/standard_button.png";
 	};
 
 	document.getElementById('zufallbutton').onmousedown = function() {
+
+		var dfarbe = [];
+
+		dfarbe[0] = Math.round(Math.random()*255).toString();
+		dfarbe[1] = Math.round(Math.random()*255).toString();
+		dfarbe[2] = Math.round(Math.random()*255).toString();
+
+		document.getElementById('red').value = dfarbe[0];
+		document.getElementById('green').value = dfarbe[1];
+		document.getElementById('blue').value = dfarbe[2];
+		for(i = 0; i < aktuelle_id.length; i++) {
+			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + dfarbe[0] + "," + dfarbe[1] + "," + dfarbe[2] + ")";
+		}
+
 		document.getElementById('zufallbutton').src = "images/zufall_button_pressed.png";
+
 	};
 	document.getElementById('zufallbutton').onmouseup = function() {
 		document.getElementById('zufallbutton').src = "images/zufall_button.png";
@@ -254,48 +287,6 @@ function bekommeFarbe(object) {
 	liste = [o_farbe_rot, o_farbe_gruen, o_farbe_blau];
 	
 	return liste;
-}
-
-/* Standardfarbe setzen */
-
-function setzeStandardFarbe() {
-
-	if(aktuelle_id[0] == 'usbkabel') {
-		dfarbe = farbe_usb;
-	}
-	if(aktuelle_id[0] == 'computer') {
-		dfarbe = farbe_computer;
-	}
-	if(aktuelle_id[0] == 'platine') {
-		dfarbe = farbe_calliope;
-	}
-
-	document.getElementById('red').value = dfarbe[0];
-	document.getElementById('green').value = dfarbe[1];
-	document.getElementById('blue').value = dfarbe[2];
-	for(i = 0; i < aktuelle_id.length; i++) {
-			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + dfarbe[0] + "," + dfarbe[1] + "," + dfarbe[2] + ")";
-	}
-
-}
-
-/* Zufallsfarbe ermitteln */
-
-function setzeZufallFarbe() {
-
-	var dfarbe = [];
-
-	dfarbe[0] = Math.round(Math.random()*255).toString();
-	dfarbe[1] = Math.round(Math.random()*255).toString();
-	dfarbe[2] = Math.round(Math.random()*255).toString();
-
-	document.getElementById('red').value = dfarbe[0];
-	document.getElementById('green').value = dfarbe[1];
-	document.getElementById('blue').value = dfarbe[2];
-	for(i = 0; i < aktuelle_id.length; i++) {
-			document.getElementById(aktuelle_id[i]).style.fill = "rgb(" + dfarbe[0] + "," + dfarbe[1] + "," + dfarbe[2] + ")";
-	}
-
 }
 
 
