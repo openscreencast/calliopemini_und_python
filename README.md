@@ -19,6 +19,23 @@ gitbook install
 gitbook build
 ```
 
+### Konfiguration
+
+book/book.json
+{
+	"variables": {
+	  "video": true,
+      "story": true,
+	  "storycss": "",
+	  "book": true
+  }
+}
+
+* video: true,false - Videoteil aktivieren/deaktivieren
+* story: true,false - Storyteil aktivieren/deaktivieren
+* book: true,false - Buchteil aktivieren/deaktivieren
+* storycss: - CSS-Style für den Storyteil festlegen
+
 ### Software
 
 * [GitBook](https://github.com/GitbookIO/gitbook) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/gitbook/blob/master/LICENSE)
