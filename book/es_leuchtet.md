@@ -4,7 +4,7 @@
 
 {% if book.video %}
 
-%accordion%Video - Herzlich Willkommen%accordion%
+%accordion%Video - Calliope mini und Python - Herzlich Willkommen%accordion%
 
 iframe - Video
 
@@ -1552,4 +1552,38 @@ Nach der Prozedur wird dein erstelltes Programm auf dem Calliope mini gestartet.
 
 {% endif %}
 
+
+{% if book.book %}
+
+### Das erste Programm mit Python {#Das_erste_Programm_mit_Python}
+
+{% if book.video %}
+
+%accordion%Video - Calliope mini und Python - Das erste Programm mit Python%accordion%
+
+iframe - Video
+
+%/accordion%
+
+<p></p>
+{% endif %}
+
+Neben der spielend einfachen Programmierung mit den [Editoren](http://calliope.cc/editor)
+im [Webbrowser](https://de.wikipedia.org/wiki/Webbrowser), die stark an
+die [Programmiersprache](https://de.wikipedia.org/wiki/Programmiersprache)
+[Scratch](https://de.wikipedia.org/wiki/Scratch_%28Programmiersprache%29) erinnert,
+gibt es die Möglichkeit [Python](https://de.wikipedia.org/wiki/Python_%28Programmiersprache%29) einzusetzen.
+Python ist eine beliebte Programmiersprache, die leicht zu erlernen ist.
+
+Die schlanke Python-Version "[MicroPython](https://micropython.org/)" wurde
+für [Mikrocontroller](https://de.wikipedia.org/wiki/Mikrocontroller) entwickelt.
+Auf dem Calliope mini wird die Portierung von [MicroPython](https://microbit-micropython.readthedocs.io/en/latest/index.html)
+für den [BBC micro:bit](https://de.wikipedia.org/wiki/BBC_micro:bit) verwendet.
+Momentan gibt es noch keine spezielle Portierung für den Calliope mini.
+Das bedeutet, dass leider noch nicht alle Funktionen vom Calliope mini über Python angesprochen werden können.
+
+
+
+
+{% endif %}
 

@@ -21,6 +21,7 @@ gitbook build
 
 ### Konfiguration
 
+```
 book/book.json
 {
 	"variables": {
@@ -30,6 +31,7 @@ book/book.json
 	  "book": true
   }
 }
+```
 
 * video: true,false - Videoteil aktivieren/deaktivieren
 * story: true,false - Storyteil aktivieren/deaktivieren
