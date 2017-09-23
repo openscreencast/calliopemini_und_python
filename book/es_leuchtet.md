@@ -1605,6 +1605,17 @@ wird nicht berücksichtigt.
 5. Programm als .py-Datei speichern
 6. mit uFlash die gespeicherte .py-Datei auf das Gerät "MINI" kopieren (`uflash dateiname.py /run/media/benutzername/MINI`)
 
+Nach der Abwicklung einer dieser Varianten wird dein Programm auf dem Calliope mini gestartet.
+
+Dein erstes Python-Programm (Schritt 4 der Variante 1 und 2) für den Calliope mini sieht so aus:
+
+```
+from microbit import *
+
+display.show(Image.HAPPY)
+```
+
 
 {% endif %}
+
 
