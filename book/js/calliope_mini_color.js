@@ -300,3 +300,4 @@ farbe_computer = bekommeFarbe('computer');
 
 haupt();
 
+

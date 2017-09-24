@@ -1,10 +1,10 @@
 {% if book.book %}
 
-# &#x1f4d3; Calliope mini und Python {#Calliope_mini_und_Python}
+#{{ book.partemojis.book }}  Calliope mini und Python {#Calliope_mini_und_Python}
 
 {% if book.video %}
 
-%accordion%&#x1f3a5; Video - Calliope mini und Python - Herzlich Willkommen%accordion%
+%accordion%{{ book.partemojis.video }} Video - Calliope mini und Python - Herzlich Willkommen%accordion%
 
 iframe - Video
 
@@ -20,8 +20,7 @@ kleiner [Computer](https://de.wikipedia.org/wiki/Computer), den du
 leicht [programmieren](https://de.wikipedia.org/wiki/Programmierung) kannst.
 Der [BBC micro:bit](https://de.wikipedia.org/wiki/BBC_micro:bit) ist ein ähnlicher Computer,
 und war die Grundlage für den Calliope mini.
-Informationen über den Calliope mini findest du 
-auf der Webseite [http://calliope.cc](http://calliope.cc).
+Informationen über den Calliope mini findest du auf der Webseite [http://calliope.cc](http://calliope.cc).
 Unter [Editor](http://calliope.cc/editor) findest du [Links](https://de.wikipedia.org/wiki/Hyperlink)
 zu drei Programmierumgebungen, die dir für die Programmierung zur Verfügung stehen. 
 Um [Programme](https://de.wikipedia.org/wiki/Computerprogramm) auf deinen Calliope mini zu spielen, sind folgende Schritte notwendig:
@@ -42,7 +41,7 @@ Nach der Prozedur wird dein erstelltes Programm auf dem Calliope mini gestartet.
 
 {% if book.story %}
 
-<div style="{{book.storycss}}">&#x1f9da; Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.
+<div style="{{book.storycss}}">{{ book.partemojis.story }} Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.
 </div>
 
 <div style="{{book.storycss}}background-image: none;">
@@ -1557,11 +1556,11 @@ Nach der Prozedur wird dein erstelltes Programm auf dem Calliope mini gestartet.
 
 {% if book.book %}
 
-### Das erste Programm mit Python {#Das_erste_Programm_mit_Python}
+###{{ book.partemojis.book }} Das erste Programm mit Python {#Das_erste_Programm_mit_Python}
 
 {% if book.video %}
 
-%accordion%Video - Calliope mini und Python - Das erste Programm mit Python%accordion%
+%accordion%{{ book.partemojis.video }} Video - Calliope mini und Python - Das erste Programm mit Python%accordion%
 
 iframe - Video
 

@@ -12,9 +12,9 @@ programmieren kann.
 
 Die Teile des Projekts sind durch bestimmte Emojis gekennzeichnet.
 
-&#x1f4d3; Buch-Teil     
-&#x1f9da; Abenteuer-Teil     
-&#x1f3a5; Video     
+{{ book.partemojis.book }} Buch-Teil     
+{{ book.partemojis.story }} Abenteuer-Teil     
+{{ book.partemojis.video }} Video     
 
 In der Konfigurationsdatei book.json können die einzelnen Teile (Buch, Abenteuer, Video) aktiviert und deaktiviert werden.
 
