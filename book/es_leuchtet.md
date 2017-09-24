@@ -21,6 +21,9 @@ leicht [programmieren](https://de.wikipedia.org/wiki/Programmierung) kannst.
 Der [BBC micro:bit](https://de.wikipedia.org/wiki/BBC_micro:bit) ist ein ähnlicher Computer,
 und war die Grundlage für den Calliope mini.
 Informationen über den Calliope mini findest du auf der Webseite [http://calliope.cc](http://calliope.cc).
+Anleitungen für Projekte, die mit dem Calliope mini realisiert werden können,
+findest du unter [Schulmaterial](http://calliope.cc/schulmaterial) und auf der Seite [hackster.io](https://www.hackster.io/calliope-mini).
+
 Unter [Editor](http://calliope.cc/editor) findest du [Links](https://de.wikipedia.org/wiki/Hyperlink)
 zu drei Programmierumgebungen, die dir für die Programmierung zur Verfügung stehen. 
 Um [Programme](https://de.wikipedia.org/wiki/Computerprogramm) auf deinen Calliope mini zu spielen, sind folgende Schritte notwendig:
@@ -1606,13 +1609,14 @@ wird nicht berücksichtigt.
 
 Nach der Abwicklung einer dieser Varianten wird dein Programm auf dem Calliope mini gestartet.
 
-Dein erstes Python-Programm (Schritt 4 der Variante 1 und 2) für den Calliope mini sieht so aus:
-
+Gib folgende Zeilen als dein erstes Programm (in Schritt 4 von Variante 1 oder 2) in den Editor ein
+und spiele es auf deinen Calliope mini hoch.
 ```
 from microbit import *
 
 display.show(Image.HAPPY)
 ```
+
 
 
 {% endif %}

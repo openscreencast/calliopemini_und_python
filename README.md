@@ -24,11 +24,16 @@ gitbook build
 ```
 book/book.json
 {
-	"variables": {
+  "variables": {
 	  "video": true,
       "story": true,
 	  "storycss": "",
-	  "book": true
+	  "book": true,
+	  "partemojis": {
+		"book": "&#x1f4d3;",
+		"video": "&#x1f3a5;",
+		"story": "&#x1f9da;"
+	 }
   }
 }
 ```
@@ -37,6 +42,7 @@ book/book.json
 * story: true,false - Storyteil aktivieren/deaktivieren
 * book: true,false - Buchteil aktivieren/deaktivieren
 * storycss: - CSS-Style für den Storyteil festlegen
+* partemojis - Emojis für bestimmte Bereiche
 
 ### Software
 
