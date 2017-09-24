@@ -1586,6 +1586,8 @@ für den [BBC micro:bit](https://de.wikipedia.org/wiki/BBC_micro:bit) verwendet.
 Momentan gibt es noch keine spezielle Anpassung für den Calliope mini.
 Das bedeutet, dass leider noch nicht alle Funktionen vom Calliope mini über Python angesprochen werden können.
 
+#### Python-Programm auf den Calliope mini spielen {#Python_Programm_auf_den_Calliope_mini_spielen}
+
 Um Python-Programme auf den Calliope mini zu spielen, werden hier zwei Varianten vorgestellt.
 Eine mögliche dritte Variante mit dem Programm [picocom](https://github.com/calliope-mini/micropython#how-to-use)
 wird nicht berücksichtigt.
@@ -1609,14 +1611,17 @@ wird nicht berücksichtigt.
 
 Nach der Abwicklung einer dieser Varianten wird dein Programm auf dem Calliope mini gestartet.
 
+#### Happy World {#Happy_World}
+
 Gib folgende Zeilen als dein erstes Programm (in Schritt 4 von Variante 1 oder 2) in den Editor ein
-und spiele es auf deinen Calliope mini hoch.
-```
+und spiele es auf deinen Calliope mini hoch. Speichere das Programm in einer Datei und bestimme
+einen passenden, selbsterklärenden Namen für die Datei, zum Beispiel: `happyworld.py`.
+So kannst du das Programm sichern und jederzeit darauf zugreifen.
+{%ace edit=false, check=true, theme='chrome', lang='python'%}
 from microbit import *
 
 display.show(Image.HAPPY)
-```
-
+{%endace%}
 
 
 {% endif %}

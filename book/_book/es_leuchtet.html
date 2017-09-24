@@ -21,6 +21,10 @@
                 
             
                 
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -575,6 +579,7 @@ Auf dem Calliope mini wird die Anpassung von <a href="https://microbit-micropyth
 f&#xFC;r den <a href="https://de.wikipedia.org/wiki/BBC_micro:bit" target="_blank">BBC micro:bit</a> verwendet.
 Momentan gibt es noch keine spezielle Anpassung f&#xFC;r den Calliope mini.
 Das bedeutet, dass leider noch nicht alle Funktionen vom Calliope mini &#xFC;ber Python angesprochen werden k&#xF6;nnen.</p>
+<h4 id="Python_Programm_auf_den_Calliope_mini_spielen">Python-Programm auf den Calliope mini spielen </h4>
 <p>Um Python-Programme auf den Calliope mini zu spielen, werden hier zwei Varianten vorgestellt.
 Eine m&#xF6;gliche dritte Variante mit dem Programm <a href="https://github.com/calliope-mini/micropython#how-to-use" target="_blank">picocom</a>
 wird nicht ber&#xFC;cksichtigt.</p>
@@ -596,12 +601,20 @@ wird nicht ber&#xFC;cksichtigt.</p>
 <li>mit uFlash die gespeicherte .py-Datei auf das Ger&#xE4;t &quot;MINI&quot; kopieren (<code>uflash dateiname.py /run/media/benutzername/MINI</code>)</li>
 </ol>
 <p>Nach der Abwicklung einer dieser Varianten wird dein Programm auf dem Calliope mini gestartet.</p>
+<h4 id="Happy_World">Happy World </h4>
 <p>Gib folgende Zeilen als dein erstes Programm (in Schritt 4 von Variante 1 oder 2) in den Editor ein
-und spiele es auf deinen Calliope mini hoch.</p>
-<pre><code>from microbit import *
+und spiele es auf deinen Calliope mini hoch. Speichere das Programm in einer Datei und bestimme
+einen passenden, selbsterkl&#xE4;renden Namen f&#xFC;r die Datei, zum Beispiel: <code>happyworld.py</code>.
+So kannst du das Programm sichern und jederzeit darauf zugreifen.</p>
+<div class="ace"><div class="aceCode" data-config="{&quot;edit&quot;:false,&quot;lang&quot;:&quot;python&quot;,&quot;check&quot;:true,&quot;theme&quot;:&quot;chrome&quot;}">from microbit import *
 
-display.show(Image.HAPPY)
-</code></pre>
+display.show(Image.HAPPY)<br></div></div>
+
+
+
+
+
+
                                 
                                 </section>
                             
@@ -644,7 +657,7 @@ display.show(Image.HAPPY)
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.3","depth":1,"next":{"title":"Lizenz","level":"1.4","depth":1,"path":"copyright.md","ref":"copyright.md","articles":[]},"previous":{"title":"Let's go!","level":"1.2","depth":1,"path":"letsgo.md","ref":"letsgo.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"video":true,"story":true,"storycss":"border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa; background-image: url('images/background_story.png');","book":true,"partemojis":{"book":"&#x1f4d3;","video":"&#x1f3a5;","story":"&#x1f9da;"}},"plugins":["accordion","livereload"],"pluginsConfig":{"accordion":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-24T17:21:49.561Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-24T16:02:12.836Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Es leuchtet","level":"1.3","depth":1,"next":{"title":"Lizenz","level":"1.4","depth":1,"path":"copyright.md","ref":"copyright.md","articles":[]},"previous":{"title":"Let's go!","level":"1.2","depth":1,"path":"letsgo.md","ref":"letsgo.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"video":true,"story":true,"storycss":"border-radius: 10px; padding: 35px; background-color: #333; color: #eee; font-weight: bold; font-family: monospace, courier; font-size: 1.0em; box-shadow: inset 0px 0px 8px 4px #aaa; background-image: url('images/background_story.png');","book":true,"partemojis":{"book":"&#x1f4d3;","video":"&#x1f3a5;","story":"&#x1f9da;"}},"plugins":["accordion","ace","livereload"],"pluginsConfig":{"ace":{},"livereload":{},"accordion":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"es_leuchtet.md","mtime":"2017-09-24T18:09:19.450Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-24T18:10:19.010Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -655,6 +668,14 @@ display.show(Image.HAPPY)
     
         
         <script src="gitbook/gitbook-plugin-accordion/accordionSelector.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace.js"></script>
         
     
         

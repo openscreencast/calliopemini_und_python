@@ -54,6 +54,9 @@ book/book.json
 * [plugin-search](https://github.com/GitbookIO/plugin-search) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-search/blob/master/LICENSE)
 * [plugin-sharing](https://github.com/GitbookIO/plugin-sharing) by [GitBook](https://github.com/GitbookIO), Lizenz: [Apache License](https://github.com/GitbookIO/plugin-sharing/blob/master/LICENSE)
 * [plugin-accordion](https://github.com/artalar/gitbook-plugin-accordion) by [artalar](https://github.com/artalar), Lizenz: The MIT License
+* [plugin-ace](https://github.com/ymcatar/gitbook-plugin-ace) by [ymcatar](https://github.com/ymcatar), Lizenz: [Apache License](https://github.com/ymcatar/gitbook-plugin-ace/blob/master/LICENSE)
+* [highlightjs](https://github.com/isagalaev/highlight.js) by [contributors](https://github.com/isagalaev/highlight.js/graphs/contributors), Lizenz: [BSD 3-clause](https://github.com/isagalaev/highlight.js/blob/master/LICENSE)
+* [html-escape](https://github.com/parshap/html-escape/) by [parshap](https://github.com/parshap), Lizenz: Public Domain
 * http://fontawesome.io created by [Dave Gandy](https://twitter.com/davegandy), licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL), Code licensed under [MIT License](http://opensource.org/licenses/mit-license.html)
 
 
