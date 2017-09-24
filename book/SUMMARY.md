@@ -1,7 +1,7 @@
 # Summary
 
-* [Let's go!](README.md)
+* [Einleitung](README.md)
+* [Let's go!](letsgo.md)
 * [Es leuchtet](es_leuchtet.md)
-* [Mitarbeit](mitarbeit.md)
 * [Lizenz](copyright.md)
 

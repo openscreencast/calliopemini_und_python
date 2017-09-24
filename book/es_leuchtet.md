@@ -1,10 +1,10 @@
 {% if book.book %}
 
-# Calliope mini und Python {#Calliope_mini_und_Python}
+# &#x1f4d3; Calliope mini und Python {#Calliope_mini_und_Python}
 
 {% if book.video %}
 
-%accordion%Video - Calliope mini und Python - Herzlich Willkommen%accordion%
+%accordion%&#x1f3a5; Video - Calliope mini und Python - Herzlich Willkommen%accordion%
 
 iframe - Video
 
@@ -42,7 +42,7 @@ Nach der Prozedur wird dein erstelltes Programm auf dem Calliope mini gestartet.
 
 {% if book.story %}
 
-<div style="{{book.storycss}}"> Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.
+<div style="{{book.storycss}}">&#x1f9da; Dein Blick richtet sich auf einen Automaten. Du siehst auf dem Display: ein USB-Kabel, den Calliope mini, einen Computer. Es ist eine Skizze. Mit drei Reglern (Rot, Grün, Blau) kannst du die Farbe vom Calliope mini ändern. Weil du wissen möchtest, wie der Calliope mini mit einer anderen Farbe aussieht, spielst du ein bisschen mit den Farbreglern herum.
 </div>
 
 <div style="{{book.storycss}}background-image: none;">
