@@ -7,6 +7,6 @@
 
 {% else %}
 
-[**Let's go !**](es_leuchtet.md)
+[**Let's go !**](bereit_ja.md)
 
 {% endif %}
