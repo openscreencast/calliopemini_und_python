@@ -2,6 +2,7 @@
 
 * [Einleitung](README.md)
 * [Let's go!](letsgo.md)
-* [Es leuchtet](es_leuchtet.md)
+* [Bereit ? Ja !](bereit_ja.md)
+* [Happy World](happyworld.md)
 * [Lizenz](copyright.md)
 
