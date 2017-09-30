@@ -64,6 +64,13 @@ from microbit import *
 display.show(Image.HAPPY)
 {%endace%}
 
+Damit der Calliope mini mittels Python programmiert werden kann, muss zu Beginn eines Programms,
+Python mit dem Funktionsbündel (Modul) microbit erweitert werden. Durch die Importierung "from microbit import *",
+in der ersten Zeile, stehen alle Funktionen zur Verfügung, die wir für Programmierung vom Calliope mini brauchen.
+Der Calliope mini besitzt eine 5x5 LED-Matrix. Mit der Funktion display.show() kannst du bestimmen, welche
+der 25 LEDs leuchten sollen. Das Bild (Image.HAPPY - ein fröhliches Gesicht),
+das angezeigt werden soll, steht zwischen den Klammern ( display.show(Image.HAPPY) ).
+Image.HAPPY ist eines der vielen vordefinieren Bilder.
 
 {% endif %}
 
