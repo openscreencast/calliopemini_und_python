@@ -84,9 +84,11 @@ hältst du vor die Linse der Tür.
 <br/><br/>
 from microbit import *
 <br/>
-display.show(<select name="bild" size="1"> 
-<option>Image.HAPPY</option>
-<option>Image.SAD</option>
+display.show(<select name="bild" size="1" onchange="setImage(this.value)"> 
+<option value="HAPPY" selected>Image.HAPPY</option>
+<option value="SAD">Image.SAD</option>
+<option value="HEART">Image.HEART</option>
+<option value="HEART_SMALL">Image.HEART_SMALL</option>
 </select>)
 
 </div>
@@ -1383,6 +1385,8 @@ display.show(<select name="bild" size="1">
 </svg>
 
 </div>
+
+<script src="js/happyworld.js"></script>
 
 {% endif %}
 
