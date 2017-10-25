@@ -55,8 +55,10 @@ function setImage(object) {
 		for(var j in liste[i]) {
 			if(liste[i][j] == "0") {
 				document.getElementById(i + j).style.fill = "rgb(200,200,200)";
+				document.getElementById("l" + i + j).style.fill = "rgb(200,200,200)";
 			} else {
 				document.getElementById(i + j).style.fill = "rgb(255,0,0)";
+				document.getElementById("l" + i + j).style.fill = "rgb(255,0,0)";
 			}
 		}
 	}
