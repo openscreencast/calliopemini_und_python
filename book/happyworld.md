@@ -89,11 +89,45 @@ display.show(<select name="bild" size="1" onchange="setImage(this.value)">
 <option value="SAD">Image.SAD</option>
 <option value="HEART">Image.HEART</option>
 <option value="HEART_SMALL">Image.HEART_SMALL</option>
+<option value="YES">Image.YES</option>
+<option value="NO">Image.NO</option>
+<option value="CONFUSED">Image.CONFUSED</option>
+<option value="ANGRY">Image.ANGRY</option>
+<option value="ASLEEP">Image.ASLEEP</option>
+<option value="SURPRISED">Image.SURPRISED</option>
+<option value="SILLY">Image.SILLY</option>
+<option value="FABULOUS">Image.FABULOUS</option>
+<option value="MEH">Image.MEH</option>
+<option value="TSHIRT">Image.TSHIRT</option>
+<option value="ROLLERSKATE">Image.ROLLERSKATE</option>
+<option value="DUCK">Image.DUCK</option>
+<option value="HOUSE">Image.HOUSE</option>
+<option value="TORTOISE">Image.TORTOISE</option>
+<option value="BUTTERFLY">Image.BUTTERFLY</option>
+<option value="STICKFIGURE">Image.STICKFIGURE</option>
+<option value="GHOST">Image.GHOST</option>
+<option value="SWORD">Image.SWORD</option>
+<option value="GIRAFFE">Image.GIRAFFE</option>
+<option value="SKULL">Image.SKULL</option>
+<option value="UMBRELLA">Image.UMBRELLA</option>
+<option value="SNAKE">Image.SNAKE</option>
+<option value="RABBIT">Image.RABBIT</option>
+<option value="COW">Image.COW</option>
+<option value="MUSIC_CROTCHET">Image.MUSIC_CROTCHET</option>
+<option value="MUSIC_QUAVER">Image.MUSIC_QUAVER</option>
+<option value="MUSIC_QUAVERS">Image.MUSIC_QUAVERS</option>
+<option value="PITCHFORK">Image.PITCHFORK</option>
+<option value="PACMAN">Image.PACMAN</option>
+<option value="TARGET">Image.TARGET</option>
+<option value="TRIANGLE">Image.TRIANGLE</option>
+<option value="TRIANGLE_LEFT">Image.TRIANGLE_LEFT</option>
+<option value="CHESSBOARD">Image.CHESSBOARD</option>
+<option value="DIAMOND">Image.DIAMOND</option>
+<option value="DIAMOND_SMALL":>Image.DIAMOND_SMALL</option>
+<option value="SQUARE">Image.SQUARE</option>
+<option value="SQUARE_SMALL">Image.SQUARE_SMALL</option>
+<option value="XMAS">Image.XMAS</option>
 </select>)
-
-</div>
-
-<div style="{{book.storycss}}background-image: none;text-align:center;">
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
